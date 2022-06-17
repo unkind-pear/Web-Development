@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+    	<meta charset = "UTF=8">
+    	<title>
+        	Exercício 2
+        </title>
+    </head>
+    
+    <body>
+ 		<h1>NOVA SÉIRE DE STAR WARS?</h1>
+        <h2>The Mandalorian - Temporada 1</h2>
+        <hr>
+        <figure>
+        	<img src="https://uploads.jovemnerd.com.br/wp-content/uploads/2019/04/the-mandalorian-logo-1210x540.png" 
+            	 alt="Banner principal Mandalorian">
+            <figcapition> Imagem da série The Mandalorian </figcapition>
+		</figure>
+        A primeira temporada da série de televisão de streaming estadunidense The Mandalorian é protagonizada por Pedro Pascal como personagem-título, um caçador de recompensas solitário contratado para resgatar "A Criança". Faz parte da franquia Star Wars, ambientada cinco anos após os eventos de O Retorno de Jedi (1983). A temporada foi produzida pela Lucasfilm, Fairview Entertainment e Golem Creations, com Jon Favreau atuando como showrunner.
+    </body>
+</html>

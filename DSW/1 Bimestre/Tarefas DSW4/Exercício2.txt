@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+    	<meta charset="UTF=8">
+        <title>
+    		Exercício 2
+        </title>
+    </head>
+	<body>
+		<table style="border:1px solid black; border-collapse:collapse;">
+        	<thead>
+        		<tr>
+            		<th style="border:1px solid black;">Disciplina</th>
+                	<th style="border:1px solid black;">Ano</th>
+                    <th style="border:1px solid black;">Nota</th>
+                    <th style="border:1px solid black;">Frequência</th>
+				</tr>
+            </thead>
+            <tbody>
+            	<tr>
+            		<td style="border:1px solid black;">DSW I</td>
+                	<td style="border:1px solid black;">1</td>
+                    <td style="border:1px solid black;">10,0</td>
+                    <td style="border:1px solid black;">101%</td>
+                </tr>
+                <tr>
+            		<td style="border:1px solid black;">Algoritmo</td>
+                	<td style="border:1px solid black;">1</td>
+                    <td style="border:1px solid black;">10,0</td>
+                    <td style="border:1px solid black;">420%</td>
+                </tr>
+                <tr>
+                	<td style="border:1px solid black;">Fundamentos Informática</td>
+                	<td style="border:1px solid black;">1</td>
+                    <td style="border:1px solid black;">10,0</td>
+                    <td style="border:1px solid black;">69%</td>
+                </tr>
+            </tbody>
+            <tfoot>
+            	<tr>
+                	<td style="border:1px solid black;">Média</td>
+                	<td style="border:1px solid black;">-----</td>
+                    <td style="border:1px solid black;">10,0</td>
+                    <td style="border:1px solid black;">403,66...%</td>
+                </tr>
+            </tfoot>
+        </table>
+	</body>
+</html>

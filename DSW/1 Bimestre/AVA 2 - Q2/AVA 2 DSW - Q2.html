@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Atividade avaliativa 02 - Questão prática 01
+    </title>
+    <style>
+        span{
+            color:whitesmoke;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+        }
+        div{
+            background-color:whitesmoke;
+        }
+    </style>
+</head>
+<body bgcolor="#262626">
+    <span>
+        <h1>Empresa Ricardo Cores</h1>
+        <div>
+            <img alt="banner_empresa" class="center" src="https://lh3.googleusercontent.com/bmFlTIHf7zvl9phC8AB18npyrlc5-IP1az8UrxIMFahBxwsqCq4gy_zdt_hIMUkX-CDiJ4W52xaArZPpNSrlsH45RftnxVTAvs0ErN4SYfKmSDT27v5_ToLgjNNQCbKREDkizle29Q=w2400">
+        </div>
+        <br>
+        <form>
+            <fieldset>
+                <legend>Cadastro</legend>
+    
+                <label for="txt_nome">Nome:</label>
+                <input type="text" id="txt_nome">
+                <br>
+                <label for="txt_snome">Sobrenome:</label>
+                <input type="text" id="txt_snome">
+                <br>
+                <label for="n_idade">Idade:</label>
+                <input type="number" id="n_idade" min="18" max="122">
+                <br>
+                <label for="n_cpf">CPF:</label>
+                <input type="number" id="n_cpf" placeholder="XXX.XXX.XXX-XX">
+                <br>
+                Área:<br>
+                <select size="5">
+                    <option>Combinação de Cores</option>
+                    <option>Criação de Cores</option>
+                    <option>CSS</option>
+                    <option>Marketing</option>
+                    <option>Administração</option>
+                </select>
+                <br>
+                <button type="submit">Enviar</button>
+                <button type="reset">Limpar</button>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Formulário para Contratação</legend>
+                
+                Nível de Escolarização:<br>
+                <input type="radio" name="esc" id="rd_es">Ensino Superior</input>
+                <input type="radio" name="esc" id="rd_m">Mestrado</input>
+                <input type="radio" name="esc" id="rd_d">Doutorado</input>
+                <input type="radio" name="esc" id="rd_pd">Pós-Doutorado</input><br>
+                <hr>
+                Área de atuação:<br>
+                <input type="radio" name="aat" id="rd_cmbc">Combinação de Cores</input>
+                <input type="radio" name="aat" id="rd_cric">Criação de Cores</input>
+                <input type="radio" name="aat" id="rd_css">CSS</input>
+                <input type="radio" name="aat" id="rd_market">Marketing</input>
+                <input type="radio" name="aat" id="rd_adm">Administração</input><br>
+                <hr>
+                Sexo:<br>
+                <input type="radio" name="se" id="rd_m">Masculino</input>
+                <input type="radio" name="se" id="rd_f">Feminino</input>
+                <input type="radio" name="se" id="rd_pnd">Prefiro não dizer</input><br>
+                <hr>
+                Quantos trabalhos você já teve antes de tentar entrar na empresa?:<br>
+                <input type="radio" name="tadene" id="ck_0">0</input>
+                <input type="radio" name="tadene" id="ck_1">1</input>
+                <input type="radio" name="tadene" id="ck_2">2</input>
+                <input type="radio" name="tadene" id="ck_+2">Mais de 2</input><br>
+                <hr>
+                (Caso seja da área de cores) Marque as combinações de cores que você prefere:<br>
+                <input type="checkbox" id="p+b">Preto + Branco</input>
+                <input type="checkbox" id="vl+r">Verde Limão + Roxo</input>
+                <input type="checkbox" id="c+c">Cinza + Cinza</input>
+                <input type="checkbox" id="d+m">Dourado + Marrom</input><br>
+                <hr>
+                Quais das opções abaixo descreveriam a missão da nossa empresa?:<br>
+                <input type="checkbox" id="ck_">Combinar cores para inspirar as pessoas</input>
+                <input type="checkbox" id="ck_">Promover o trabalho de Ricardo, o combinador supremo</input>
+                <input type="checkbox">Ir à falência</input><br>
+                <hr>
+                Horário disponível para trabalho:<br>
+                <input type="checkbox" id="rd_8pt4a">8PM até 4AM</input>
+                <input type="checkbox" id="rd_8at4p">8AM até 4pM</input>
+                <input type="checkbox" id="rd_10at6p">10AM até 6PM</input>
+                <input type="checkbox" id="rd_5at1p">5AM até 1PM</input><br>
+                <hr>
+                (Caso seja da área de cores) Quais dos prêmios a seguir suas combinações já ganharam?:<br>
+                <input type="checkbox" id="ck_oc">Oscar das Cores</input>
+                <input type="checkbox" id="ck_eidr">Evento Internacional do Ricardo</input>
+                <input type="checkbox" id="ck_fdc">Festival das Cores</input>
+                <input type="checkbox" id="ck_srgbil">Show RGB is Life</input><br>
+                <hr>
+                Escreva um parágrafo de no máximo 300 palavras explicando o motivo para contratarmos você:<br>
+                <textarea id="txtarea_descricao" rows="6" cols="80" maxlength="300"></textarea>
+                <br>
+                <button type="submit">Enviar</button>
+                <button type="reset">Limpar</button>
+            </fieldset>
+        </form>
+        <h3>Aluno: Andrew Brancalhone Moreira - 1 TII</h3>
+    </span>
+</body>
+</html>

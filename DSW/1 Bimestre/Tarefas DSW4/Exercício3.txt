@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+    	<meta charset="UTF=8">
+        <title>
+    		Exercício 3
+        </title>
+    </head>
+	<body>
+    	<h1>CEP - Região de Riberão Preto</h1>
+		<table border="1">
+        	<tr>
+            	<td rowspan="2">Nome</td>
+                <td colspan="2">Região</td>
+            </tr>
+            <tr>
+            	<td>Cidade</td>
+                <td>CEP</td>
+            </tr>
+            <tr>
+            	<td>Maria</td>
+                <td>Riberão Preto</td>
+                <td>14015-050</td>
+            </tr>
+            <tr>
+            	<td>José</td>
+                <td>Sertãozinho</td>
+                <td>14160-600</td>
+            </tr>
+            <tr>
+            	<td>Thiago</td>
+                <td>França</td>
+                <td>87115-228</td>
+            </tr>
+        </table>
+	</body>
+</html>

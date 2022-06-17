@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset = "UTF-8">
+        <title>
+        	Atividade avaliativa 01 - Questão prática
+        </title>
+	</head>
+
+	<body>
+    	<h1>Quest 2</h1>
+        <hr>
+        <figure>
+    		<img src="https://m.media-amazon.com/images/I/41dQ8uYD3DL._AC_SY355_.jpg" alt="banner quest">
+            <figcaption>Foto Ilustrativa do Produto</figcaption>
+        </figure>
+        <h2>O que é?</h2>
+        <p>
+        <strong>Oculus Quest 2</strong> (comercializado desde novembro de 2021 como <b>Meta Quest 2</b>) é um headset de realidade virtual (<b>VR</b>) criado pela <br> <i>Facebook Technologies, LLC</i> fazendo negócios como <b>Oculus</b>, uma marca da <i>Facebook Inc</i>. (<u>agora <i>Meta Platforms</i></u>) É o sucessor do <br> <i>headset</i> anterior, o Oculus Quest. O Quest 2 foi apresentado oficialmente em 16 de setembro de 2020, durante o <i>Facebook Connect 7</i>.
+        </p>
+        <hr>
+		<p>
+		Tal como acontece com seu antecessor, o Quest 2 é capaz de funcionar como um <i>headset</i> <u>autônomo</u> com um sistema operacional interno <br> baseado em <b>Android</b> e com software <b>VR</b> compatível com o programa <b>Oculus</b> executado em um <u>computador <i>desktop</i></u> quando conectado <br> por USB ou Wi-Fi. É uma atualização do Oculus Quest original com um design semelhante, mas com um peso mais leve, especificações <br> internas atualizadas, uma tela com maior taxa de atualização e resolução por olho e controladores Oculus <i>Touch</i> atualizados.
+		</p>
+        <hr>
+		<p>
+		O Quest 2 recebeu críticas principalmente positivas pelos <i>upgrades</i> incrementais em relação ao primeiro Quest, mas algumas de suas <br> mudanças enfrentaram críticas, como o novo <i>strap</i> que possui uma qualidade menor em relação à seu antecessor, opções de distância <br> interpupilar (IPD) <u>reduzida</u> e um novo <u>requisito</u> para os usuários fazerem login com uma conta do <u>Facebook</u> para usar os serviços do <i>headset</i>.
+		</p>
+        <hr>
+        <p>
+        Mesmo com alguns cortes na qualidade e algumas mudanças <u>indesejadas</u>, o Quest 2 ainda é sem dúvida um <u>grande <i>upgrade</i></u> em relação à seu <br> antecessor o Quest, como mostra a tabela a seguir:
+        </p>
+        <table border="1">
+        	<tr>
+            	<th> </th>
+            	<th>Resolução por Olho</th>
+                <th>Peso</th>
+                <th>Preço</th>
+                <th>Armazenamento</th>
+                <th>Tipo da Tela</th>
+                <th>Taxa de Autualização</th>
+                <th>Processador</th>
+                <th>Memória Ram</th>
+            </tr>
+            <tr>
+            	<th>Quest</th>
+                <td>1440 x 1600 pixels</td>
+                <td>571 gramas</td>
+                <td>Começa a $399</td>
+                <td>64GB/256GB</td>
+                <td>OLED</td>
+                <td>72Hz</td>
+                <td>Qualcomm Snapdragon 835</td>
+                <td>6GB</td>
+            </tr>
+            <tr>
+            	<th>Quest 2</th>
+                <td>1832 x 1920 pixels</td>
+                <td>503 gramas</td>
+                <td>Começa a $299</td>
+                <td>128GB/256GB</td>
+                <td>LCD</td>
+                <td>72Hz/80Hz/90Hz/120Hz</td>
+                <td>Qualcomm Snapdragon XR2</td>
+                <td>4GB</td>
+            </tr>
+        </table>
+        <p>
+        E o <u>menor preço</u> apenas <b>adiciona</b> na pilha de fatores que fazem o Oculus Quest 2 ser um headset <u>muito competitivo e custo benefício</u>, ele é o <br> <i>headset</i> com mais <i>features</i> que qualquer outro pelo seu preço e os <u>consumidores concordam</u> como mostra o <b>gráfico de vendas</b> do Quest e Quest 2:
+        </p>
+        <figure>
+        	<img src="https://mk0uploadvrcom4bcwhj.kinstacdn.com/wp-content/uploads/2021/04/FacebookRevenueLongScale.png" alt="gráficodevendas">
+            <figcaption>Tradução: Renda do Facebook Excluíndo os Anúncios, em Milhões</figcaption>
+        </figure>
+        <h2>Onde comprar?</h2>
+        <hr>
+        <p>
+        Caso estaja interessado em adquirir um Quest 2, pode verificar nossas recomendações de <u>lojas revendedoras</u> do produto:
+        </p>
+        <ul type="square">
+        	<li>Amazon</li>
+            <li>Site oficial do Facebook (Agora Meta)</li>
+            <li>Best Buy</li>
+            <li>Walmart</li>
+            <li>Newegg</li>
+            <li>Target</li>
+        </ul>
+        <h3>Aluno: Andrew Brancalhone Moreira - 1 TII</h3>
+	</body>
+</html>

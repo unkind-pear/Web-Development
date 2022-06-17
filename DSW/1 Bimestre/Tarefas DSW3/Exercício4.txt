@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+    	<meta charset = "UTF=8">
+    	<title>
+        	Exercício 4
+        </title>
+    </head>
+    
+    <body>
+    	<h1>BOLO DE CENOURA COM COBERTURA DE CHOCOLATE</h1>
+ 		<img src="https://cdn.panelinha.com.br/receita/1615221321919-Bolo-de-cenoura-com-cobertura-de-chocolate_receita_post.jpg" alt="BoloeCafénaMesa">
+        <p>
+        Bolo de cenoura fica macio, bem fofinho, no ponto para receber a calda de chocolate. No Panelinha, todas as receitas são testadas, preparadas pela equipe inúmeras vezes. Por isso sempre funciona.
+        </p>
+        <h2>PARA O BOLO</h2>
+        <hr>
+        <p><b>INGREDIENTES</b></p>
+        <ul>
+        	<li>3 cenouras médias (cerca de 360g ou 2 ¼ xícaras (chá) de cenoura descascada e ralada)</li>
+            <li>4 ovos</li>
+            <li>1 xícara (chá) de óleo de milho</li>
+            <li>1 ½ xícara (chá) de açúcar</li>
+            <li>2 xícaras (chá) de farinha de trigo</li>
+            <li>1 colher (sopa) de fermento em pó</li>
+            <li>1 pitada de sal</li>
+            <li>Manteiga e farinha de trigo para untar e polvilhar a fôrma</li>
+        </ul>
+        <p><b>MODO DE PREPARO</b></p>
+        <ol>
+        	<li>Preaqueça o forno a 180 ºC (temperatura média). Unte com manteiga uma fôrma retangular de 30 cm x 20 cm e 5 cm de altura. Polvilhe com farinha de trigo, chacoalhe e bata sobre a pia para tirar o excesso.</li>
+        </ol>
+        <img src="https://cdn.panelinha.com.br/receita/1560800386339-bolomaorita.jpg" alt="MoçaMexendoTijela" width="500">
+        <ol start="2">
+        	<li>Numa tigela, coloque a farinha, o sal e o fermento, passando pela peneira. Misture e reserve. </li>
+            <li>Lave e descasque as cenouras. Descarte a ponta da rama, corte as cenouras em rodelas e transfira para o liquidifcador. </li>
+            <li>Junte o óleo às cenouras cortadas. Numa tigela pequena, quebre um ovo de cada vez e transfira para o liquidificador – se um estiver estragado, você não perde a receita. Acrescente o açúcar e bata bem até ficar liso, por cerca de 5 minutos. </li>
+            <li>Transfira a mistura líquida para uma tigela grande e adicione aos poucos os ingredientes secos, misturando delicadamente com um batedor de arame para incorporar.</li>
+            <li>Com cuidado, transfira a massa para a fôrma e leve ao forno para assar por cerca de 45 minutos. Para saber se o bolo está pronto, espete um palito na massa: se sair limpo, pode tirar do forno; caso contrário, deixe por mais alguns minutos, até assar completamente. Deixe esfriar por 15 minutos antes de preparar a cobertura.</li>
+        </ol>
+        <p>OBS: se preferir utilize uma fôrma redonda de 24 cm de diâmetro. Neste caso, fique atento ao tempo de forno que pode ser mais longo, cerca de 50 minutos.</p>
+        <h2>PARA A COBERTURA</h2>
+        <hr>
+        <p><b>INGREDIENTES</b></p>
+        <ul>
+        	<li>½ xícara (chá) de chocolate em pó</li>
+            <li>⅓ de xícara (chá) de açúcar</li>
+            <li>1 colher (sopa) de manteiga</li>
+            <li>⅓ de xícara (chá) de água</li>
+        </ul>
+        <p><b>MODO DE PREPARO</b></p>
+        <ol>
+        	<li>Numa panela pequena junte o chocolate, o açúcar, a manteiga e a água. Leve ao fogo alto e mexa com o batedor de arame até ferver. </li>
+            <li>Depois que começar a ferver, mexa por mais 3 minutos, até a calda engrossar e desgrudar do fundo da panela. Regue a calda quente imediatamente sobre o bolo morno (ou frio) e espalhe com uma espátula para cobrir toda a superfície. Deixe a calda esfriar completamente e cristalizar antes de servir.</li>
+        </ol>
+        <p>DICA: se preferir, corte o bolo na assadeira antes de regar com a calda para ficar mais fácil de servir depois.</p>
+    </body>
+</html>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+    	<meta charset = "UTF=8">
+    	<title>
+        	Exercício 1
+        </title>
+    </head>
+    
+    <body>
+ 		<h1>Quentin Tarantino define projeto para Star Trek como um "Pulp Fiction no espaço"</h1>
+        <h2>Diretor disse ficar incomodado com os comentários de Simon Pegg sobre o longa</h2>
+        <hr>
+        O diretor <b>Quentin Tarantino</b> ainda não sabe se comandará um filme para maiores de <u><i><b>Star Trek</b></i></u>. Se ele o fizer, porém, o <u>cineasta</u> afirma que será uma espécie de <i>"Pulp Fiction no espaço"</i>.
+        <hr>
+        <b>Fonte: <i>https://www.omelete.com.br/star-trek-2/quentin-tarantino-define-projeto-para-star-trek-como-um-pulp-fiction-no-espaco</i></b>
+    </body>
+</html>

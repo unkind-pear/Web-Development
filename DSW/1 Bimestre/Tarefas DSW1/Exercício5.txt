@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset = "UTF-8">
+        <title>
+        	Receita de Bolo de Limão
+        </title>
+	</head>
+
+	<body>
+		<h1> Receita de Bolo de Limão </h1>
+        <hr>
+        	<h2> Ingredientes </h2>
+       	 	<h4> Para o bolo: </h4>
+     		   	1. 2 ovos (claras em neve) <br>
+			   	2. 1 e 1/2 xícara de açucar <br>
+			   	3. 3 colheres (sopa) margarina <br>
+				4. Suco de 1 ou 2 limões (depende do tamano) <br>
+				5. Raspas de casca limão <br>
+				6. 3 e ¹/2 xícaras de farinha de trigo <br>
+				7. 1 xícara de leite <br>
+				8. 2 colheres (sopa) fermento em pó <br>
+			<h4> Para a cobertura: </h4>
+				1. 2/3 lata de leite condensado <br>
+				2. Raspas da casca de 1 limão pequeno <br>
+				3. Suco de 1/2 limão <br>
+        <hr>
+        	<h2> Modo de Preparo: </h2>
+        		<h4> Para o bolo: </h4>
+        			1. Bater no liquidificador as gemas, o açúcar e margarina.<br>
+					2. Em seguida juntar o suco e raspas limão, o leite e farinha aos poucos.<br>
+					3. Por último misturar, delicadamente, as claras em neve e o fermento.<br>
+					4. Espalhar a massa em uma assadeira retangular média já untada e assar no forno (já preaquecido) por mais ou menos 40 minutos em temperatura de 180ºC.<br>
+        		<h4> Para a cobertura: </h4>
+        			1. Misturar tudo em uma panela pequena e levar ao fogo mexendo sempre até levantar fervura.
+	</body>
+</html>

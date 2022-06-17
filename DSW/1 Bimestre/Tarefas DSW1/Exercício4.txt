@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset = "UTF-8">
+        <title>
+        	Coisas que o Andrew gosta
+        </title>
+	</head>
+
+	<body>
+    	  <h1> Andrew Brancalhone Moreira </h1>
+        <hr>
+        <p>
+        Sou Andrew, tenho 14 anos, estudei o fundamental no anglo e gostei muito da IFSP.<br>
+        Gosto de sair com os amigos, estudar programação, assistir filmes e séries e jogar jogos
+        </p>
+	</body>
+</html>

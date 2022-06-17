@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+    	<meta charset = "UTF=8">
+    	<title>
+        	Exercício 4
+        </title>
+    </head>
+    
+    <body>
+    	<h1>Rússia invade Ucrânia: o que sabemos até agora sobre principais acontecimentos</h1>
+ 		Há 6 horas
+        <figure>
+        	<img src="https://ichef.bbci.co.uk/news/800/cpsprodpb/17687/production/_123397859_mediaitem123397858.jpg.webp"
+            	 alt="Banner Principal">
+            <figcaption> Fuga de moradores de Kiev provoca engarrafamentos na capital ucraniana </figcaption>
+        </figure>
+        
+        <p>
+        	<b>Reportagem atualizada às 16h45 de 24/2.</b>
+        </p>
+        
+        <p>
+        	<b>A Rússia iniciou nesta quinta-feira (24/2) um ataque militar em larga escala contra a Ucrânia, país vizinho ao sul, por ordem do presidente russo, Vladimir Putin.</b>
+        </p>
+        
+        <p>
+        	Há relatos de ataques à infraestrutura militar ucraniana em todo o país e de comboios russos chegando de todas as direções.
+        </p>
+        
+        <pre>
+	• QUEREMOS CONTAR SUA HISTÓRIA: você ou parentes estão agora na Ucrânia?
+	• Rússia invade Ucrânia: 7 questões para entender a crise
+	• Que sanções estão sendo impostas à Rússia e o que mais pode ser feito?
+        </pre>
+        
+        <p>
+        	A seguir, confira o que sabemos até agora.
+        </p>
+        
+        <h2>Putin ordena ataque</h2>
+        
+        <p>
+        	Em pronunciamento televisionado às 05h55 (horário de Moscou), Putin anunciou uma "operação militar" na região de Donbas, no leste da Ucrânia.
+        </p>
+
+		<p>Esta área abriga muitos ucranianos de língua russa. Partes dela foram ocupadas e administradas por rebeldes apoiados pela Rússia desde 2014.</p>
+
+		<p>Putin disse que a Rússia estava intervindo como um ato de legítima defesa. A Rússia não queria ocupar a Ucrânia, segundo ele, mas iria desmilitarizar e "desnazificar" o país.</p>
+        
+        <img src="https://ichef.bbci.co.uk/news/800/cpsprodpb/F4E2/production/_123409626_1279a914-2a02-4cca-b42c-7fae8a8b04da.jpg.webp"
+            	 alt="Imagem Europa">
+        
+        <p>
+        Ele pediu aos soldados ucranianos na zona de combate que baixem suas armas e voltem para casa, mas disse que os confrontos são inevitáveis ​​e "apenas uma questão de tempo".
+        </p>
+
+		<p>
+E acrescentou que qualquer intervenção de potências externas de resistência ao ataque russo seria recebida com uma resposta "instantânea".
+        </p>
+        
+        <h2> Explosões ouvidas em todo o país </h2>
+        
+        <figure>
+        	<img src="https://ichef.bbci.co.uk/news/624/cpsprodpb/150AE/production/_123409168_9e1f8c7f-122a-419b-a37e-11a544cb62da.jpg.webp"
+            	 alt="Cara Estranho Falando">
+            <figcaption> Zelensky voltou a falar com o povo da Ucrânia, trocando seu terno escuro por um uniforme militar </figcaption>
+        </figure>
+        
+        <p>
+        Correspondentes da BBC escutaram estrondos na capital Kiev, assim como em Kramatorsk, na região de Donetsk, no leste da Ucrânia. Explosões também foram ouvidas na cidade portuária de Odessa, no sul.
+        </p>
+        
+        <p>
+        O presidente da Ucrânia, Volodymyr Zelensky, disse que a Rússia realizou ataques com mísseis à infraestrutura da Ucrânia e guardas de fronteira.
+        </p>
+        
+        <p>
+        O Ministério da Defesa da Rússia negou ter atacado cidades ucranianas — dizendo que estava mirando infraestrutura militar, defesa aérea e forças aéreas com "armas de alta precisão".
+        </p>
+        
+        <img src="https://ichef.bbci.co.uk/news/800/cpsprodpb/9146/production/_123409173_e9a8fdcb-27a7-43c5-9f15-93b640b2cb8c.jpg.webp"
+             alt="Europa 2">
+        
+        <p>
+        Zelensky voltou a falar com o povo da Ucrânia pela tarde, trocando seu terno escuro por um uniforme militar.
+        </p>
+        
+        <p>
+        Em seu discurso, ele comparou o conflito ao "som da nova cortina de ferro que está caindo e isolando a Rússia do mundo civilizado", acrescentando que "nossa tarefa é que essa cortina não caia em território ucraniano".
+        </p>
+        
+        <h2>Tanques e tropas entram na Ucrânia</h2>
+        
+        <p>
+        Tanques e tropas invadiram a Ucrânia em trechos ao longo de sua fronteira ao leste, sul e norte, diz a Ucrânia.
+        </p>
+        
+        <p>
+        Comboios militares russos cruzaram de Belarus para a região de Chernihiv, no norte da Ucrânia, e da Rússia para a região de Sumy, que também fica ao norte, segundo o serviço de guarda de fronteira da Ucrânia (DPSU).
+        </p>
+        
+        <p>
+        Belarus é um aliado de longa data da Rússia. Analistas descrevem o pequeno país como o "estado-satélite" da Rússia.
+        </p>
+        
+        <figure>
+        	<img src="https://ichef.bbci.co.uk/news/800/cpsprodpb/176EB/production/_123397959_mediaitem123397866.jpg.webp" 
+        	 	 alt="Caminhões">
+            <figcaption> Um comboio russo entra na região de Kherson, na Ucrânia, vindo da Crimeia </figcaption>
+        </figure>
+        
+        <p>
+        Os comboios também entraram nas regiões ao leste de Luhansk e Kharkiv e se deslocaram para a região de Kherson a partir da Crimeia — território que a Rússia anexou da Ucrânia em 2014.
+        </p>
+        
+        <p>
+        A ofensiva russa foi precedida por disparos da artilharia, e guardas de fronteira ficaram feridos, informou o DPSU.
+        </p>
+        
+        <p>
+        Também houve relatos de tropas desembarcando por mar nas cidades portuárias de Mariupol e Odessa, no sul.
+        </p>
+        
+        <p>
+        Uma forte explosão foi ouvida no centro da cidade de Odessa, e um residente britânico disse à BBC que muitas pessoas estavam indo embora.
+        </p>
+        
+        <p>
+        Mariupol está sob fogo pesado, com relatos de centenas de explosões, disse uma fonte diplomática à agência de notícias Reuters.
+        </p>
+        
+        <img src="https://ichef.bbci.co.uk/news/800/cpsprodpb/B856/production/_123409174_c34e73a0-2664-4184-a56b-f24d85ce28b5.jpg.webp" 		   				alt="Estatísticas sla">
+    
+        <p>
+        Este é um dos maiores portos ucranianos e está localizado perto de uma linha de frente mantida por separatistas apoiados pela Rússia na região de Donetsk - que Putin reconheceu como um Estado independente.
+        </p>
+
+        <p>
+        Tomar Mariupol ajudaria a Rússia a garantir uma rota terrestre direta para a Crimeia, a península ucraniana anexada pela Rússia em 2014.
+        </p>
+        
+        <p>
+        Há uma luta intensa em torno da antiga usina nuclear em Chernobyl. O conselheiro presidencial ucraniano Mykhaylo Podolyak disse ser impossível dizer se o local está seguro.
+        </p>
+        
+        <p>
+        "Perdemos o controle de Chernobyl", disse Podolyak.
+        </p>
+        
+        <p>
+        Um vídeo, verificado pela BBC, parece mostrar tanques russos estacionados do lado de fora da antiga usina nuclear.
+        </p>
+        
+        <p>
+        Chernobyl foi o local de um dos piores desastres nucleares da história, quando um de seus quatro reatores explodiu em 1986.
+        </p>
+        
+        <h2>Mortes registradas</h2>
+        
+        <p>
+        Pelo menos oito pessoas morreram em bombardeios das forças russas, segundo a polícia ucraniana.
+        </p>
+        
+        <p>
+        Um ataque a uma unidade militar em Podilsk, nos arredores de Odesa, matou seis pessoas e feriu sete, segundo autoridades. Dezenove pessoas estão desaparecidas.
+        </p>
+        
+        <p>
+        E uma pessoa morreu na cidade de Mariupol, ao leste.
+        </p>
+        
+        <h2>Ucrânia diz que está se defendendo</h2>
+        
+        <p>
+        O presidente Zelensky afirmou que as forças ucranianas têm defendido com sucesso a região leste de Donbas, além de lutar perto de Kharkiv.
+        </p>
+        
+        <p>
+        Zelensky diz que a área mais problemática está em Kherson, no sul do país, para onde as tropas russas se mudaram para o norte da Crimeia anexada.
+        </p>
+        
+        <p>
+        No norte, ele diz que o inimigo continua avançando na região e descreveu combates pesados em Chernobyl.
+        </p>
+        
+        <figure>
+        	<img src="https://ichef.bbci.co.uk/news/624/cpsprodpb/DB7E/production/_123409165_7701933b-5952-454e-b0a1-446de35a6c3f.jpg.webp" 
+        	 	 alt="Tanque apontando">
+            <figcaption> Militares ucranianos foram fotografados perto da linha de frente na região de Luhansk </figcaption>
+        </figure>
+        
+        <p>
+        As Forças Armadas ucranianas disseram que derrubaram cinco aviões russos e um helicóptero e provocaram baixas nas tropas invasoras.
+        </p>
+        
+        <p>
+        "Mantenham a calma e acreditem nos defensores da Ucrânia", diz um comunicado das forças militares da Ucrânia.
+        </p>
+        
+        <p>
+        O Ministério da Defesa da Rússia negou, no entanto, que suas aeronaves tenham sido derrubadas.
+        </p>
+        
+        <p>
+        Os militares ucranianos disseram ainda que lançaram um ataque de artilharia contra paraquedistas russos que desembarcaram no aeroporto de Antonov, perto de Kiev, e tentaram assumir o controle.
+        </p>
+        
+        <p>
+        O aeroporto, que é um importante porto internacional de carga e também uma base militar, fica a cerca de uma hora e meia de carro da capital.
+        </p>
+        
+        <p>
+        Isso é o mais próximo que as forças russas conseguiram chegar de Kiev no primeiro dia da invasão.
+        </p>
+        
+        <figure>
+        	<img src="https://ichef.bbci.co.uk/news/800/cpsprodpb/15D9B/production/_123399498_mediaitem123399497.jpg.webp" 
+        	 	 alt="Carros no morro">
+            <figcaption> As pessoas atravessaram campos para deixar a cidade de Kharkiv </figcaption>
+        </figure>
+        
+        <p>
+        A Ucrânia decretou lei marcial — o que significa que os militares assumem o controle temporariamente — e cortou relações diplomáticas com a Rússia.
+        </p>
+        
+        <p>
+        O <u>presidente Zelensky instou os russos a protestar contra a invasão</u> e disse que armas seriam distribuídas a qualquer pessoa na Ucrânia que desejasse.
+        </p>
+        
+        <p>
+        Enquanto isso, o ministro das Relações Exteriores, Dmytro Kuleba, implorou ao mundo que imponha sanções devastadoras à Rússia, incluindo excluir o país do sistema internacional de transferência bancária Swift.
+        </p>
+        
+        <p>
+        O embaixador da Ucrânia em Washington disse que o país "não espera que ninguém" lute pelo país enquanto combate as forças russas.
+        </p>
+        
+        <p>
+        Falando a repórteres na embaixada ucraniana, Oksana Markarova disse que "Kiev está totalmente sob controle [do governo]", mas que os helicópteros russos estão "fora" da cidade.
+        </p>
+        
+        <p>
+        "A situação é muito tensa", acrescentou.
+        </p>
+        
+        <p>
+        De acordo com Markarova, dezenas de militares ucranianos foram mortos na manhã de quinta-feira.
+        </p>
+        
+        <h2>Moradores procuram abrigo</h2>
+        
+        <p>
+        Em Kiev, as sirenes de ataque aéreo são ouvidas com frequência. O prefeito Vitali Klitschko impôs um toque de recolher das 22h às 07h.
+        </p>
+        
+        <p>
+        Klitschko disse à BBC que os cidadãos ficaram chocados ao ouvir explosões na cidade e pediu a união do Ocidente para ajudar a Ucrânia.
+        </p>
+        
+        <p>
+        "É o nosso objetivo, é o nosso sonho, construir um país moderno e democrático e ser 'parte da família europeia'", disse.Há grandes congestionamentos em Kiev nas vias expressas à medida que as pessoas fogem da cidade.
+        </p>
+        
+        <p>
+        Relatos nas redes sociais fazem referência a uma crescente sensação de pânico, com alguns dizendo que estão sendo levados às pressas para abrigos antiaéreos e porões.
+        </p>
+        
+        <p>
+        Imagens de televisão mostraram pessoas rezando nas ruas.
+        </p>
+        
+        <p>
+        Muitas pessoas em Kiev procuraram abrigo em estações de metrô subterrâneas. Há também longas filas em postos de gasolina e caixas eletrônicos.
+        </p>
+        
+        <figure>
+        	<img src="https://ichef.bbci.co.uk/news/800/cpsprodpb/900F/production/_123397863_mediaitem123397862.jpg.webp" 
+        	 	 alt="Gente na escada">
+            <figcaption>Moradores estão se abrigando em estações de metrô</figcaption>
+        </figure>
+        
+        <p>
+        Mais a leste, em Kramatorsk, na região leste de Donetsk, a correspondente da BBC no leste europeu Sarah Rainsford disse que as pessoas não esperavam um ataque tão amplo.
+        </p>
+        
+        <p>
+        "As pessoas estavam nas ruas ontem à noite nesta cidade — estavam agitando a bandeira ucraniana. Disseram que esta era sua terra. E não iriam a lugar nenhum", ela contou.
+        </p>
+        
+        <p>
+        "Isto é o que as pessoas estavam à espera, estavam aguardando, mas ninguém aqui consegue acreditar que de fato está acontecendo."
+        </p>
+        
+        <figure>
+        	<img src="https://ichef.bbci.co.uk/news/624/cpsprodpb/1028E/production/_123409166_e24f9f5e-a0c3-43b9-be00-dd0dd64e54a7.jpg.webp" 
+        	 	 alt="Moça com mala">
+            <figcaption>Toque de recolher foi imposto na capital</figcaption>
+        </figure>
+        
+        <p>
+        Paul Adams, correspondente de diplomacia da BBC em Kiev, disse que jatos estão sobrevoando de forma intermitente e que há um cheiro acre no ar. "Tem cheiro de papel queimado", escreveu Adams.
+        </p>
+        
+        <p>
+        "Todo mundo está no limite. Os ônibus ainda estão circulando, mas quase não vejo passageiros."
+        </p>
+        
+        <h2>'Ucranianos vão lutar', disse prefeito de Kiev</h2>
+        
+        <figure>
+        	<img src="https://ichef.bbci.co.uk/news/624/cpsprodpb/177BE/production/_123409169_90bf5244-5340-4f44-b8f6-50f33a567bea.jpg.webp" 
+        	 	 alt="Cara narigudo terno cinza">
+            <figcaption>O prefeito de Kiev disse estar preocupado com os moradores da capital</figcaption>
+        </figure>
+        
+        <p>
+        Vitali Klitschko disse à BBC que o Exército da Rússia é um dos maiores do mundo e admitiu que será uma luta difícil.
+        </p>
+        
+        <p>
+        Mas disse que os ucranianos não gostam da agressão russa e "lutarão por nosso futuro, por nossos filhos".Ele admitiu, no entanto, estar preocupado com as 3 milhões de pessoas que vivem em Kiev.
+        </p>
+        
+        <h2>Ucranianos se refugiam na Moldávia</h2>
+        
+        <p>
+        O Alto Comissariado da ONU para Refugiados disse à BBC que estima que mais de 100 mil pessoas já deixaram suas casas na Ucrânia.
+        </p>
+        
+        <p>
+        Mais de 4 mil pessoas, a maioria mulheres e crianças, fugiram pela fronteira para a Moldávia. Ainda não está claro se pretendem ficar lá ou vão atravessar para a Romênia.
+        </p>
+        
+        <p>
+        Uma explicação para o alto número de mulheres e crianças é que as autoridades ucranianas estão impedindo a saída de homens em idade de serviço militar, mas não há confirmação independente disso.
+        </p>
+        
+        <p>
+        "Esperamos números muito maiores", disse Roland Schilling, representante regional da Agência das Nações Unidas para Refugiados, à BBC de Chisinau.
+        </p>
+        
+        <p>
+        "Estamos cientes das grandes filas se formando nos postos de fronteira. Estamos preparando nossa resposta humanitária."
+        </p>
+        
+        <p>
+        A ONU já havia alertado que uma invasão da Ucrânia poderia desencadear uma crise de refugiados em larga escala.
+        </p>
+        
+        <h2>Preço do petróleo dispara</h2>
+        
+        <p>
+        Os preços do petróleo subiram acima de US$ 100 pela primeira vez em mais de sete anos.
+        </p>
+        
+        <p>
+        Enquanto isso, a moeda da Rússia, o rublo, caiu para uma baixa histórica em relação ao dólar e ao euro.
+        </p>
+        
+        <p>
+        E o principal índice FTSE 100 da Bolsa de Valores de Londres caiu mais de 200 pontos, ou 2,7%, logo após a abertura.
+        </p>
+        
+        <h2>Mundo condena Putin</h2>
+        
+        <figure>
+        	<img src="https://ichef.bbci.co.uk/news/624/cpsprodpb/11BF2/production/_123409627_67ae357f-3862-44bd-b220-bdaaf9fecdaf.jpg.webp" 
+        	 	 alt="Biden discurso">
+            <figcaption>Biden acusou Putin de planejar ataque por meses</figcaption>
+        </figure>
+        
+        <p>
+        O presidente dos EUA, Joe Biden, disse que Putin "escolheu uma guerra premeditada que trará uma perda catastrófica de vidas e sofrimento humano". O mundo responsabilizaria a Rússia, segundo ele.
+        </p>
+        
+        <p>
+        Biden acrescentou que os russos iniciaram o ataque sem provocação e que a ação vinha sendo planejada há meses
+        </p>
+        
+        <p>
+        O presidente americano afirmou que Putin transferiu 175 mil soldados e equipamentos militares para a fronteira com a Ucrânia, além de suprimentos, e construiu hospitais de campanha.
+        </p>
+        
+        <p>
+        O líder russo rejeitou todas as tentativas de diálogo do Ocidente, disse Biden. Segundo ele, fortes sanções serão aplicadas para "maximizar um impacto de longo prazo na Rússia e minimizar o impacto nos Estados Unidos e seus aliados".
+        </p>
+        
+        <p>
+        Os EUA vão impedir a capacidade da Rússia de financiar e aumentar suas Forças Armadas, declarou Biden, e limitarão sua capacidade de competir na economia de alta tecnologia do século 21.
+        </p>
+        
+        <p>
+        Forças dos EUA foram enviadas para países da Otan na Europa Oriental que se sentem ameaçados pela Rússia, incluindo Letônia, Estônia e Lituânia no Báltico, bem como Polônia e Romênia.
+        </p>
+        
+        <p>
+        Biden reiterou que os militares americanos "não estão e não estarão" envolvidas no conflito com a Rússia na Ucrânia.
+        </p>
+        
+        <p>
+        "Nossas forças não estão indo para a Europa para lutar na Ucrânia, mas para defender nossos aliados da Otan e tranquilizar aqueles aliados no leste", disse ele.
+        </p>
+        
+        <p>
+        "Os Estados Unidos defenderão cada centímetro do território da Otan com toda a força do poder americano."
+        </p>
+        
+        <p>
+        Biden acrescentou que a Otan está mais unida do que nunca e que "não há dúvida" de que os EUA e outros países da aliança militar cumprirão seus compromissos com o tratado.
+        </p>
+        
+        <p>
+        Biden também disse acreditar que Putin "tem ambições muito maiores" que vão muito além das fronteiras da Ucrânia.
+        </p>
+        
+        <p>
+        "Ele quer, de fato, restabelecer a antiga União Soviética", disse Biden. "É disso que se trata".
+        </p>
+        
+        <p>
+        "Suas ambições são completamente contrárias ao lugar onde o resto do mundo chegou", acrescentou.
+        </p>
+        
+        <p>
+        Além disso, Biden disse que as sanções contra Putin pessoalmente "ainda estão na mesa" como uma opção possível, além das já anunciadas contra a economia da Rússia e vários indivíduos e entidades.
+        </p>
+        
+        <p>
+        O primeiro-ministro do Reino Unido, Boris Johnson, afirmou estar "chocado com os eventos horríveis na Ucrânia" e que Putin "escolheu um caminho de derramamento de sangue e destruição ao lançar este ataque sem provocação".
+        </p>
+        
+        <p>
+        Johnson anunciou ainda as sanções que o Reino Unido aplicará à Rússia, entre elas o congelamento de ativos de indivíduos e de bancos russos e a exclusão destas instituições do sistema financeiro britânico, veto a financiamentos ou empréstimos a empresas russas, proibição de que a companhia aérea Aeroflot pouse no Reino Unido, suspensão das licenças de exportação de itens que podem ser usados para fins militares, de alta tecnologia e de refinamento de petróleo, além de outras medidas.
+        </p>
+        
+        <figure>
+        	<img src="https://ichef.bbci.co.uk/news/800/cpsprodpb/6A36/production/_123409172_3dcb25b2-9fec-4690-881e-24eba9d3c57b.jpg.webp" 
+        	 	 alt="Cara do reino unido">
+            <figcaption>Premiê do Reino Unido afirmou estar 'chocado com os eventos horríveis na Ucrânia'</figcaption>
+        </figure>
+        
+        <p>
+        Sanções financeiras semelhantes serão estendidas à Belarus por seu papel no ataque à Ucrânia.
+        </p>
+        
+        <p>
+        O secretário-geral da Organização do Tratado do Atlântico Norte (Otan), Jens Stoltenberg, condenou o "ataque irresponsável" da Rússia, dizendo que "coloca em risco inúmeras vidas de civis".
+        </p>
+        
+        <p>
+        A Europa está "enfrentando seus momentos mais sombrios desde a Segunda Guerra Mundial", avaliou o chefe de política externa da União Europeia, Josep Borrell.
+        </p>
+        
+        <p>
+        Já o ex-presidente dos EUA, Donald Trump, afirmou que Putin se aproveitou da "fraqueza" americana.
+        </p>
+        
+        <p>
+        Ele ligou para a Fox News para dizer que não acreditava que Putin "queria fazer isso, inicialmente".
+        </p>
+        
+        <p>
+        "Acho que ele queria fazer algo e negociar, e ficou cada vez pior, então ele viu a fraqueza", afirmou Trump.
+        </p>
+        
+        <p>
+        Jessica Parker, correspondente de política da BBC, informou que a União Europeia (UE) poderia, em represália à Rússia, suspender parte de seu acordo de facilitação de vistos com o país como parte de seu novo pacote de sanções.
+        </p>
+        
+        <p>
+        Fontes indicaram que isso afetaria os recém-chegados e aqueles "ligados ao regime [russo]" - como funcionários, diplomatas e militares.
+        </p>
+        
+        <p>
+        "Em ligações para cortar a Rússia do serviço de mensagens financeiras Swift, um diplomata sênior disse que, embora a ideia estivesse 'na mesa', não era o foco por enquanto", disse Parker.
+        </p>
+        
+        <p>
+        O Swift permite transações rápidas e é usado por 11 mil instituições financeiras em 200 países.
+        </p>
+        
+        <p>
+        "Mas, se a medida não estiver no próximo pacote da UE, eles disseram, isso não significa que descartado."
+        </p>
+        
+        <p>
+        Autoridades indicaram, segundo a jornalista, que o pacote provavelmente incluirá medidas sobre controles de exportação e os setores financeiro e industrial.
+        </p>
+        
+        <h2>'Ocidente não respeita lei internacional', disse chanceler russo</h2>
+        
+        <figure>
+        	<img src="https://ichef.bbci.co.uk/news/624/cpsprodpb/1C16/production/_123409170_13d50b45-0d7e-4fc6-98b6-b5b7f938de62.jpg.webp" 
+        	 	 alt="Chanceler alemão">
+            <figcaption>Chanceler russo criticou ações de países ocidentais</figcaption>
+        </figure>
+        
+        <p>
+        O ministro das Relações Exteriores da Rússia, Sergei Lavrov, disse que a Rússia sempre está pronta para o diálogo.
+        </p>
+        
+        <p>
+        "Infelizmente, nossos amigos ocidentais não respeitam a lei internacional, tentando destruí-la e promover o que eles chamam de 'ordem baseada em regras'", disse Lavrov, segundo a agência de notícias estatal RIA Novosti.
+        </p>
+        
+        <p>
+        "Tivemos discussões intensas e detalhadas com nossos colegas americanos, com outros membros da Otan", disse ele.
+        </p>
+        
+        <p>
+        "Esperamos que ainda haja uma chance de retornar ao direito internacional e às obrigações internacionais."
+        </p>
+        
+        <h2>Prisões em protestos na Rússia</h2>
+        
+        <figure>
+        	<img src="https://ichef.bbci.co.uk/news/624/cpsprodpb/1299E/production/_123409167_fb85854f-f345-46e0-9999-efdaf8d9fc9b.jpg.webp" 
+        	 	 alt="Cara protesto">
+            <figcaption>Manifestantes foram detidos em 40 cidades, de acordo com o OVD-Info</figcaption>
+        </figure>
+        
+        <p>
+        Pelo menos 735 pessoas foram presas em protestos contra a guerra em toda a Rússia na quinta-feira, disse uma organização independente.
+        </p>
+        
+        <p>
+        Manifestantes foram detidos em 40 cidades, de acordo com o OVD-Info, que monitora prisões em manifestações de oposição ao governo.
+        </p>
+        
+        <p>
+        Mais de 330 pessoas foram detidas em Moscou, disse a organização.
+        </p>
+        
+        <p>
+        Imagens de Moscou mostram grandes multidões perto do Kremlin.
+        </p>
+        
+        <p>
+        Cerca de 2 mil pessoas se reuniram perto da praça Pushkin na capital russa e cerca de outras 1 mil pessoas na cidade de São Petersburgo, informou a agência de notícias AFP.
+		<hr>
+        <pre>
+	• Rússia invade Ucrânia: 7 questões para entender a crise
+	• Quais sanções estão sendo impostas à Rússia e o que mais pode ser feito?
+	• 'Pode ser início de grande guerra na Europa', disse presidente Zelensky pouco antes de invasão russa
+	• Quais as chances de conflito na Ucrânia se transformar em 3ª Guerra Mundial?
+        </pre>
+        <hr>
+        
+        <b>Fonte: <i>https://www.bbc.com/portuguese/internacional-60506882</i></b>
+    </body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+    	<meta charset = "UTF=8">
+    	<title>
+        	Exercício 2
+        </title>
+    </head>
+    
+    <body>
+    	<h1>Macarrão Instantâneo: Como preparar?</h1>
+        <hr>
+    	<figure>
+    		<img src="https://mega.ibxk.com.br///2014/09/12/12185733377710.jpg?ims=1200x480" alt="BannerMacarrão">
+            <figcaption>Imagem meramente ilustrativa</figcaption>
+        </figure>
+        <h2>Modo de preparo</h2>
+        <hr>
+        <ol>
+        	<li>Ferver <b>600ml</b> de água em uma panela.</li>
+            <li>Retirar o macarrão do pacote.</li>
+            <li>Colocar o macarrão na panela no <b>fogo baixo</b>.</li>
+            <li>Cozinhar o macarrão por <b>3min</b>.</li>
+            <li>Temperar <b>a gosto</b>.</li>
+        </ol>
+        <i>© 2022 - 2022 www.como-fazer-miojo.com - Todos os direitos reservados.
+Última atualização: 03/03/2022 17:20:07</i>
+    </body>
+</html>

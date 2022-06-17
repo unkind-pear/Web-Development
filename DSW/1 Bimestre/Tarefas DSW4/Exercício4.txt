@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+    	<meta charset="UTF=8">
+        <title>
+    		Exercício 4
+        </title>
+    </head>
+	<body>
+		<table border="1">
+        	<tr>
+            	<td colspan="3">Trabalho 1</td>
+            </tr>
+            <tr>
+            	<td colspan="2">Grupos</td>
+                <td>Notas</td>
+            </tr>
+            <tr>
+            	<td rowspan="3">Grupo 1</td>
+                <td>Aluno 1</td>
+                <td>8,0</td>
+            </tr>
+            <tr>
+                <td>Aluno 2</td>
+                <td>7,5</td>
+            </tr>
+            <tr>
+                <td>Aluno 3</td>
+                <td>8,0</td>
+            </tr>
+            <tr>
+            	<td rowspan="3">Grupo 2</td>
+                <td>Aluno 4</td>
+                <td>4,0</td>
+            </tr>
+            <tr>
+                <td>Aluno 5</td>
+                <td>3,5</td>
+            </tr>
+            <tr>
+            	<td>Aluno 6</td>
+                <td>0,75</td>
+            </tr>
+        </table>
+	</body>
+</html>

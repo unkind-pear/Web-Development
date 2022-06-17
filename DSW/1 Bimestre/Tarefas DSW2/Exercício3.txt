@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+    	<meta charset = "UTF=8">
+    	<title>
+        	Exercício 3
+        </title>
+    </head>
+    
+    <body>
+    	<h1>Jogos Eletrônicos!</h1>
+        <hr>
+ 		<figure>
+        	<img src="https://upload.wikimedia.org/wikipedia/pt/4/49/Half-Life_Alyx_Cover_Art.jpg?20200206013134" 
+            	 alt="HL Alyx">
+            <figcaption> Half-Life: Alyx </figcaption>
+        </figure>
+        Half-Life: Alyx acontece cinco anos antes dos eventos de Half-Life 2. A Terra foi conquistada pelos alienígenas chamados <i>Combine</i>, que implementaram um estado policial brutal. Na <i>City 17</i>, a adolescente <b>Alyx</b> e seu pai, Dr. Eli Vance, ambos membros de um movimento de resistência humana, estão roubando recursos da Combine. Depois que eles são capturados pela Combine, o membro da resistência Russell resgata Alyx e avisa que Eli será transportado para <i>Nova Prospekt</i> para interrogatório. Para interceptar o trem que transportava Eli, Alyx se aventura na zona de quarentena, uma área dentro da <i>City 17</i> infestada de vida alienígena parasita. Ao longo do caminho, ela conhece um excêntrico Vortigaunt, que pede a Alyx para salvar seus companheiros Vortigaunts e prevê que Eli morrerá [...]
+        <h2>O melhor de todos!</h2>
+        <figure>
+        	<img src="https://upload.wikimedia.org/wikipedia/pt/thumb/f/fa/Yakuza_0_Ryu_Ga_Gotoku_Studio_Sega_capa_digital.png/270px-Yakuza_0_Ryu_Ga_Gotoku_Studio_Sega_capa_digital.png" 
+            	 alt="Yakuza 0">
+            <figcaption> Yakuza 0 </figcaption>
+        </figure>
+        Em dezembro de 1988, o yakuza <b>Kazuma Kiryu</b> é acusado de assassinato no <i>Empty Lot</i> em Kamurochō, Tóquio. O <i>Empty Lot</i> é atualmente disputado pelo chefe do clã Tojo, Sohei Dojima, e seus tenentes, Daisaku Kuze, Hiroki Awano e Keiji Shibusawa. Para proteger seu pai adotivo, Shintaro Kazama, da punição, Kiryu deixa o clã Tojo. Kiryu conhece o agente imobiliário Tetsu Tachibana, que promete limpar seu nome em troca de ajudá-lo a adquirir o Lote Vazio antes de Dojima. Kiryu aceita. Depois que Kiryu e Jun Oda, o braço direito de Tachibana, interferem com posseiros relacionados à família Dojima, os tenentes Dojima exigem que Kiryu entregue Tachibana. Kiryu se recusa, levando a família Dojima a caçá-lo. Seu irmão de juramento Akira Nishikiyama corta laços com Kiryu para manter um ao outro seguro. Tachibana diz a Kiryu que o dono do Lote Vazio é sua irmã distante, Makoto Makimura, que vive em Sotenbori, Osaka e sofre de cegueira psicogênica [...]
+    </body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+    	<meta charset = "UTF=8">
+    	<title>
+        	Exercício 3
+        </title>
+    </head>
+    
+    <body>
+ 		<h1>Roupa Nova: Músicas de Novelas</h1>
+        <hr>
+        <ol>
+        	<li>Anos 80
+            	<ol type="A">
+                	<li><b>Anjo</b> - Guerra dos Sexos (1983)</li>
+                    <li><b>Whisky à Go-Go</b> - Um Sonho a Mais (1985)</li>
+                    <li><b>Dona</b> - Roque Santeiro (1986)</li>
+                    <li>Duas músicas de 1989
+                    	<ul type="square">
+                        	<li><b>Chama</b> - Que Rei Sou Eu (1989)</li>
+                            <li><b>Coração Pirata</b> - Rainha da Sucata (1989)</li>
+                        </ul>
+                    </li>
+                </ol>
+            </li>
+            <li>Anos 90
+            	<ol type="A">
+                	<li><b>Esse Tal de 'Répi en Roll</b> - Meu Bem, Meu Mal (1991)</li>
+                    <li>Duas músicas em 1992
+                   		<ul type="square">
+                        	<li><b>Felicidade</b> - Felicidade (1992)</li>
+                            <li><b>Começo, Meio e Fim</b> - Felicidade (1992)</li>
+                        </ul>
+                    </li>
+                    <li><b>A Viagem</b> - A Viagem (1994)</li>
+                    <li><b>Ibiza Dance</b> - Explode Coração (1996)</li>
+                </ol>
+            </li>
+        </ol>
+        <hr>
+    </body>
+</html>
