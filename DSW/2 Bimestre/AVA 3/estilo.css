@@ -38,16 +38,18 @@ section{
 aside{
     background-color: #555555;
 
-    height: 500px;
+    height: 750px;
     width: 400px;
 
     float: left;
 }
 
 footer{
-    background-color: yellow;
+    font-family: Descricao;
+    font-style: italic;
 
-    height: fit-content;
+    background-color: silver;
+
     width: 1400px;
 
     clear: both;
@@ -131,6 +133,9 @@ a{
     background-color: gray;
     width: fit-content;
 
+    position: relative;
+    top: -10px;
+
     display: block;
     margin: 0 auto;
 }
@@ -163,7 +168,7 @@ body{
     background-image: url("Imagens/Pagina-Principal/Fundos/home-fundo.jpg");
 
     background-attachment: fixed;
-    background-size: cover;
+    background-size: auto;
 }
 
 #divisao{
@@ -182,8 +187,6 @@ body{
 
     display: block;
     margin: 0 auto;
-
-    padding-bottom: 10px;
 
     border-radius: 8px;
 
@@ -297,10 +300,14 @@ body{
 
 #imagem_aside_wiki{
     border-style: solid;
-    border-color: silver;
+    border-color: rgb(192, 192, 192);
 
-    height: 371px;
+    height: fit-content;
     width: fit-content;
 
+    position: relative;
+    top: 20px;
+
+    display: block;
     margin: 0 auto;
 }
