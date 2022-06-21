@@ -23,7 +23,7 @@ nav{
 }
 
 section{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Wiki;
     font-size: large;
     color: whitesmoke;
     padding-left: 30px;
@@ -38,7 +38,7 @@ section{
 aside{
     background-color: #555555;
 
-    height: 750px;
+    height: 800px;
     width: 400px;
 
     float: left;
@@ -129,6 +129,11 @@ a{
     background-size: cover; 
 }
 
+#botao_sa{
+    background: url("Imagens/Pagina-Principal/Botoes/botao-sa.jpg");
+    background-size: cover;
+}
+
 #botao_voltar_topo{
     background-color: gray;
     width: fit-content;
@@ -162,6 +167,11 @@ a{
     src: url(Fontes/Montserrat/Montserrat-Italic-VariableFont_wght.ttf) format("truetype");
 }
 
+@font-face {
+    font-family: Wiki;
+    src: url(Fontes/AnekMalayalam-VariableFont_wdth\,wght.ttf) format("truetype");
+}
+
 /* Body */
 
 body{
@@ -189,8 +199,6 @@ body{
     margin: 0 auto;
 
     border-radius: 8px;
-
-    /* box-shadow: 10px; */
 }
 
 #logo_header{
@@ -290,6 +298,14 @@ body{
     display: block;
 
     margin: 0 auto;
+}
+
+.imagem_sa{
+    display: block;
+
+    margin: 0 auto;
+
+    margin-top: 20px;
 }
 
 
