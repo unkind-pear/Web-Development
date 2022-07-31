@@ -1,0 +1,66 @@
+.container{
+    width: 100%;
+
+    display: flex;
+    font-size: 24px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.cartaz{
+    width: 270px;
+    height: 400px;
+    border: 1px solid black;
+    margin-top: 10px;
+    box-shadow: 0px 0px 7px;
+
+    background-size: cover;
+    background-position: center;
+
+    transition: transform 1s;
+}
+.cartaz:hover{
+    transform: scale(1.04);
+}
+.cartaz:hover h3{
+    opacity: 0;
+}
+.cartaz:hover h4{
+    opacity: 0;
+}
+
+.cartazImg1{
+    background-image: url("../images/Jojo_Stardust.jpg");
+}
+
+.cartazImg2{
+    background-image: url("../images/Doutor_Estranho_Multiverso.jpg");
+}
+
+.cartazImg3{
+    background-image: url("../images/Minions_2.jpg");
+}
+
+body{
+    background-image: url("../images/Fundo.jpg");
+}
+
+h3{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.4);
+
+    transition: opacity 1s;
+}
+
+h4{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.4);
+    line-height: 80px;
+    margin-top: 125px;
+
+    transition: opacity 1s;
+}

@@ -1,0 +1,6 @@
+-> CSS Flexbox
+- Alinhamento em uma dimensão apenas, trabalha com tags do tipo block
+- Possui dois conjuntos de comandos: Flex Containers & Flex Items
+
+-> CSS Grid
+- Redimensionar o site todo

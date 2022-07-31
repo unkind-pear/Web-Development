@@ -1,0 +1,257 @@
+/* -=-=-=-=-=-=-=-=-=-=-= Estrutura Padrão -=-=-=-=-=-=-=-=-=-=-=- */
+
+
+/* Layout */
+
+header{
+    background-color: #3C3C3C;
+
+    height: 100px;
+
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+nav{
+    background-color: #3C3C3C;
+
+    height: fit-content;
+
+    padding-top: 18px;
+
+    text-align: center;
+}
+
+section{
+    font-family: Wiki;
+    font-size: large;
+    color: whitesmoke;
+    padding-left: 30px;
+    padding-right: 30px;
+
+    height: fit-content;
+    width: 940px;
+
+    float: left;
+}
+
+aside{
+    background-color: #555555;
+
+    height: 800px;
+    width: 400px;
+
+    float: left;
+}
+
+footer{
+    font-family: Descricao;
+    font-style: italic;
+
+    background-color: silver;
+
+    width: 1400px;
+
+    clear: both;
+
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+a{
+    color: inherit;
+    text-decoration: inherit;
+}
+
+/* Botão Padrão */
+
+.botao_nav{
+    opacity: 0.6;
+
+    width: auto;
+    height: 40px;
+
+    border-radius: 8px;
+
+    margin-left: 10px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    font-family: YakuzaFontTiny;
+    color: whitesmoke;
+
+
+    line-height: 40px;
+    font-size: large;
+
+    display: inline-block;
+
+    text-align: center;
+    vertical-align: top;
+
+    transition: 0.3s;
+}
+
+.botao_nav:hover{
+    opacity: 1;
+}
+
+/* Buttons Individual */
+
+#botao_y0{
+    background: url("Imagens/Pagina-Principal/Botoes/botao-y0.jpg");
+    background-size: cover;
+}
+
+#botao_yk{
+    background: url("Imagens/Pagina-Principal/Botoes/botao-yk.jpg");
+    background-size: cover;
+}
+
+#botao_yk2{
+    background: url("Imagens/Pagina-Principal/Botoes/botao-yk2.jpg");
+    background-size: cover;   
+}
+
+#botao_tyrc{
+    background: url("Imagens/Pagina-Principal/Botoes/botao-tyrc.jpg");
+    background-size: cover; 
+}
+
+#botao_y6tsol{
+    background: url("Imagens/Pagina-Principal/Botoes/botao-y6tsol.jpg");
+    background-size: cover; 
+}
+
+#botao_ylad{
+    background: url("Imagens/Pagina-Principal/Botoes/botao-ylad.jpg");
+    background-size: cover; 
+}
+
+#botao_sa{
+    background: url("Imagens/Pagina-Principal/Botoes/botao-sa.jpg");
+    background-size: cover;
+}
+
+#botao_voltar_topo{
+    background-color: gray;
+    width: fit-content;
+
+    position: relative;
+    top: -10px;
+
+    display: block;
+    margin: 0 auto;
+}
+
+/* Fonts */
+
+@font-face {
+    font-family: YakuzaFontTiny;
+    src: url(Fontes/edosz-tiny.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: Descricao;
+    src: url(Fontes/Montserrat/Montserrat-Italic-VariableFont_wght.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: Wiki;
+    src: url(Fontes/AnekMalayalam-VariableFont_wdth\,wght.ttf) format("truetype");
+}
+
+/* Body */
+
+body{
+    background-image: url("Imagens/Pagina-Principal/Fundos/home-fundo.jpg");
+
+    background-attachment: fixed;
+    background-size: auto;
+}
+
+#divisao{
+    height: 8px;
+
+    border-style: none;
+
+    background-color: gray;
+}
+
+#janela_principal{
+    background-color: #202020;
+
+    height: fit-content;
+    width: 1400px;
+
+    display: block;
+    margin: 0 auto;
+
+    border-radius: 8px;
+}
+
+#logo_header{
+    height: 80px;
+    
+    display: block;
+
+    margin: 0 auto;
+
+    position: relative;
+    top: 10px;
+}
+
+
+
+
+/* Seleção Resumo */
+
+.resumo{
+    font-family: Descricao;
+    font-size: x-large;
+    font-style: italic;
+
+    text-align: center;
+
+    width: 1000px;
+    height: 120px;
+
+    margin: 0 auto;
+}
+
+/* Seleção Imagem */
+
+.imagem_de_selecao{
+    display: block;
+
+    margin: 0 auto;
+}
+
+.imagem_sa{
+    display: block;
+
+    margin: 0 auto;
+
+    margin-top: 20px;
+}
+
+
+/* -=-=-=-=-=-=-=-=-=-=-= Página Wiki -=-=-=-=-=-=-=-=-=-=-=- */
+
+
+/* Aside */
+
+#imagem_aside_wiki{
+    border-style: solid;
+    border-color: rgb(192, 192, 192);
+
+    height: fit-content;
+    width: fit-content;
+
+    position: relative;
+    top: 20px;
+
+    display: block;
+    margin: 0 auto;
+}
