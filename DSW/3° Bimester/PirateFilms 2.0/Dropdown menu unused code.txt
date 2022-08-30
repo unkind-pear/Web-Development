@@ -1,0 +1,56 @@
+.dropdown{
+    text-align: center;
+
+    position: relative;
+    top: 10px;
+
+    min-width: 150%;
+    max-width: 150%;
+
+    min-height: 100px;
+    max-height: 100px;
+
+    padding: .75rem;
+    border-radius: .25rem;
+
+    box-shadow: 0 8px rgb(94, 98, 114);
+    color: whitesmoke !important;
+    background-color: rgb(142, 157, 212) !important;
+
+    opacity: 0;
+}
+
+.button:focus .dropdown{
+    opacity: 1;
+
+    animation-name: opacity;
+    animation-duration: .2s;
+}
+
+.button2{
+    text-decoration: none;
+    font-family: Poppins-Light;
+    color: unset;
+    font-size: larger;
+
+    
+    height: auto !important;
+    width: auto !important;
+    margin: none !important;
+    transition: color 0.5s ease-in-out !important;
+
+    background-color: rgba(0, 0, 0, 0) !important;
+}
+
+.button2:hover{
+    color: rgb(187, 187, 187);
+}
+
+.button2:hover div{
+    height: 100%;
+}
+
+@keyframes opacity {
+    0%   {opacity: 0; top: 0px;}
+    100%   {opacity: 1; top: 10px;}
+  }

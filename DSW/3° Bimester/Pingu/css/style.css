@@ -1,0 +1,129 @@
+.container{
+    width: 100%;
+
+    display: flex;
+    font-size: 24px;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    margin-top: 80px;
+}
+
+.cartaz{
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    border-radius: 8px;
+    box-shadow: 0px 0px 7px;
+    margin: 0 18px;
+
+    background-size: cover;
+    background-position: center;
+
+    transition: width 1s;
+}
+.cartaz:hover{
+    width: 400px;
+}
+.cartaz:hover h3{
+    opacity: 0;
+}
+.cartaz:hover h4{
+    opacity: 0;
+}
+
+.cartazImg1{
+    background-image: url("../images/pingu-do-rock.jpg");
+}
+
+.cartazImg2{
+    background-image: url("../images/pingu-dark-souls.jpg");
+}
+
+.cartazImg3{
+    background-image: url("../images/pingu-chad.jpg");
+}
+
+body{
+    background-image: url("../images/Fundo.jpg");
+    
+}
+
+h4{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.4);
+    line-height: 80px;
+    margin-top: 125px;
+
+    transition: opacity 1s;
+}
+
+/* Botao */
+
+.botao{
+    width: 100px;
+    margin: auto;
+
+    background-color: rgba(0, 0, 0, 0);
+    transition: background-color 0.5s ease-in-out;
+
+    text-align: center;
+}
+.botao:hover{
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.botao:hover div{
+    width: 100%;
+}
+.botao:hover a{
+    color: rgb(71, 71, 133);
+}
+
+.barra_botao{
+    transition: width 0.5s ease-in-out;
+    height: 5px;
+    width: 0%;
+    margin: auto;
+
+    background-color: whitesmoke;
+}
+
+.texto_botao{
+    color: whitesmoke;
+    transition: color 0.2s;
+    font-family: Poppins;
+}
+
+a{
+    text-decoration: inherit;
+    color: inherit;
+}
+
+
+
+header{
+    background-color: rgb(70, 7, 107);
+    margin-top: -20px;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+@font-face {
+    font-family: Poppins;
+    src: url("../fonts/Poppins-Medium.ttf");
+}
+
+@font-face {
+    font-family: Poppins-Italic;
+    src: url("../fonts/Poppins-ExtraLightItalic.ttf");
+}
+
+p{
+    font-family: Poppins-Italic;
+    color: whitesmoke;
+    font-size: 200%;
+    text-align: center;
+    margin-top: 60px;
+}
