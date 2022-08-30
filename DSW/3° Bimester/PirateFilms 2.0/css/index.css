@@ -1,11 +1,7 @@
-/*=-=-=-=-=-=-=-=-=-=-=-=-=-= Body =-=-=-=-=-=-=-=-=-=-=-=-=-=*/
-
 body{
     margin: 0px;
     background-color: rgb(73, 81, 111);
 }
-
-/*=-=-=-=-=-=-=-=-=-=-=-=-=-= Navegation =-=-=-=-=-=-=-=-=-=-=-=-=-=*/
 
 nav{
     height: 80px;
@@ -16,8 +12,6 @@ nav{
 
     justify-content: center;
 }
-
-/*=-=-=-=-=-=-=-=-=-=-=-=-=-= Navegation Buttons =-=-=-=-=-=-=-=-=-=-=-=-=-=*/
 
 .button{
     text-decoration: none;
@@ -37,8 +31,6 @@ nav{
     color: rgb(187, 187, 187);
 }
 
-/*=-=-=-=-=-=-=-=-=-=-=-=-=-= Button Animated Bar =-=-=-=-=-=-=-=-=-=-=-=-=-=*/
-
 .button div{
     transition: width 0.5s ease-in-out;
     height: 5px;
@@ -52,8 +44,6 @@ nav{
     width: 100%;
 }
 
-/*=-=-=-=-=-=-=-=-=-=-=-=-=-= Fonts =-=-=-=-=-=-=-=-=-=-=-=-=-=*/
-
 @font-face {
     font-family: Poppins-Light;
     src: url("../fonts/Poppins/Poppins-Light.ttf");
@@ -63,8 +53,6 @@ nav{
     font-family: Poppins-Bold;
     src: url("../fonts/Poppins/Poppins-Bold.ttf");
 }
-
-/*=-=-=-=-=-=-=-=-=-=-=-=-=-= THE GRID =-=-=-=-=-=-=-=-=-=-=-=-=-=*/
 
 #grid-container{
     display: grid;
@@ -86,7 +74,7 @@ nav{
     align-items: center; 
     justify-content: center;
 
-    transition: 0.2s;
+    transition: border 0.1s;
 }
 .grid-item:hover{
     border: 5px solid white;
@@ -119,8 +107,6 @@ nav{
 
     font-size: medium;
 }
-
-/*=-=-=-=-=-=-=-=-=-=-=-=-=-= Individual GRID Items =-=-=-=-=-=-=-=-=-=-=-=-=-=*/
 
 #item1{
     grid-row: 1/2;
