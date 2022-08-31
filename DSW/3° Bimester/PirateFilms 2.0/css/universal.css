@@ -1,6 +1,38 @@
+:root{
+    --background: rgb(73, 81, 111);
+}
+
 body{
     margin: 0px;
-    background-color: rgb(73, 81, 111);
+    background-color: var(--background);
+}
+
+header{
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 180px;
+
+    background-image: url("../images/banner.jpg");
+    background-position: center;
+    background-size: cover;
+
+    display: grid;
+}
+
+header h1{
+    font-family: Treasuremap;
+    font-size: 60px;
+    
+    margin: auto;
+}
+
+.pirate-icon1{
+    grid-column: 1/2;
+    padding: 15px;
+}
+
+.pirate-icon2{
+    grid-column: 3/4;
+    padding: 15px;
 }
 
 nav{
@@ -13,9 +45,12 @@ nav{
     justify-content: center;
 }
 
-.button{
+a{
     text-decoration: none;
     color: unset;
+}
+
+.button{
     font-family: Poppins-Light;
     color: white;
     font-size: larger;
@@ -26,7 +61,6 @@ nav{
 
     transition: color 0.5s ease-in-out;
 }
-
 .button:hover{
     color: rgb(187, 187, 187);
 }
@@ -52,4 +86,14 @@ nav{
 @font-face {
     font-family: Poppins-Bold;
     src: url("../fonts/Poppins/Poppins-Bold.ttf");
+}
+
+@font-face {
+    font-family: Bebas;
+    src: url("../fonts/Bebas/Bebas-Regular.ttf");
+}
+
+@font-face {
+    font-family: Treasuremap;
+    src: url("../fonts/Pirate/Treasuremap.ttf");
 }

@@ -1,62 +1,6 @@
-body{
-    margin: 0px;
-    background-color: rgb(73, 81, 111);
-}
-
-nav{
-    height: 80px;
-
-    text-align: center;
-
-    display: flex;
-
-    justify-content: center;
-}
-
-.button{
-    text-decoration: none;
-    color: unset;
-    font-family: Poppins-Light;
-    color: white;
-    font-size: larger;
-
-    margin-left: 80px;
-    margin-top: auto;
-    margin-bottom: auto;
-
-    transition: color 0.5s ease-in-out;
-}
-
-.button:hover{
-    color: rgb(187, 187, 187);
-}
-
-.button div{
-    transition: width 0.5s ease-in-out;
-    height: 5px;
-    width: 0%;
-    margin: auto;
-
-    background-color: whitesmoke;
-}
-
-.button:hover div{
-    width: 100%;
-}
-
-@font-face {
-    font-family: Poppins-Light;
-    src: url("../fonts/Poppins/Poppins-Light.ttf");
-}
-
-@font-face {
-    font-family: Poppins-Bold;
-    src: url("../fonts/Poppins/Poppins-Bold.ttf");
-}
-
 #grid-container{
     display: grid;
-    grid-template-rows: 300px 300px 300px;
+    grid-template-rows: 300px 300px 300px 80px;
     grid-template-columns: 200px 200px 200px 200px 200px;
 
     margin: 0 auto;
@@ -68,7 +12,7 @@ nav{
     background-size: cover;
     background-position: center;
 
-    border: 5px solid rgb(73, 81, 111);
+    border: 5px solid var(--background);
 
     display: flex;
     align-items: center; 
@@ -155,4 +99,31 @@ nav{
     grid-column: 3/6;
     
     background-image: url("../images/Home/jurassic-dominio.jpg");
+}
+
+#item8{
+    grid-row: 4/5;
+    grid-column: 1/6;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#button-bottom{
+    border-radius: 5px;
+    background-color: rgb(149, 155, 179);
+    width: fit-content;
+    
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: larger;
+
+    transition: 0.5s;
+}
+#button-bottom:hover{
+    background-color: rgb(94, 98, 114);
 }
