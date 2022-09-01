@@ -12,17 +12,19 @@
 <body>
 
     <script>
-        function Esconder_Filmes() {
-            let state = this.parentNode.nextSibling.style;
+        function Esconder_Filmes(element) {
+            let seta = element.style;
 
-            if (state.display == "none") {
-                state.display = "flex";
-                this.style.transform = "rotate(10deg)";
+            let filmes = element.parentNode.nextElementSibling.style;
+            
+            if (filmes.display !== "none") {
+                filmes.display = "none";
+                seta.transform = "rotate(180deg)";
             }
-          
+            
             else {
-                state.display = "none";
-                this.style.transform = "rotate(10deg)";
+                seta.transform = "rotate(0deg)";
+                filmes.display = "flex";
             }
         }
     </script>
@@ -48,158 +50,138 @@
         </a>
     </nav>
     <section>
-        <div id="flex-container">
+        <div class="flex-container">
+
+            <!-- -------------------- Ação e Aventura -------------------- -->
+
             <h2>Ação e Aventura<button onclick="Esconder_Filmes(this)"></button></h2>
             <div class="flex-items">
-                <div class="flex-item" id="item1">
+
+                <a href="https://www.youtube.com" target="_blank" class="flex-item" id="item1">
                     <div>
-                        <br><br><br>
                         <h3>Harry Potter e a Câmara Secreta</h3>
-                        <p>4 de agosto de 2022</p>
                     </div>
-                </div>
+                </a>
                 <div class="flex-item" id="item2">
                     <div>
-                        <br><br><br>
                         <h3>Uncharted: Fora do Mapa</h3>
-                        <p>4 de agosto de 2022</p>
                     </div>
                 </div>
                 <div class="flex-item" id="item3">
                     <div>
-                        <br><br>
                         <h3>Harry Potter e as Relíquias da Morte: Parte 2</h3>
-                        <p>4 de agosto de 2022</p>
                     </div>
                 </div>
                 <div class="flex-item" id="item4">
                     <div>
-                        <br><br>
                         <h3>Animais Fantásticos: Os Segredos de Dumbledore</h3>
-                        <p>4 de agosto de 2022</p>
                     </div>
                 </div>
                 <div class="flex-item" id="item5">
                     <div>
-                        <br><br><br>
                         <h3>9 - A Salvação</h3>
-                        <p>4 de agosto de 2022</p>
                     </div>
                 </div>
+
             </div>
-            <h2>Ficção Científica<button></button></h2>
+
+            <!-- -------------------- Ficção Científica -------------------- -->
+
+            <h2>Ficção Científica<button onclick="Esconder_Filmes(this)"></button></h2>
             <div class="flex-items">
+
                 <div class="flex-item" id="item6">
                     <div>
-                        <br><br><br>
                         <h3>Jurassic Park</h3>
-                        <p>4 de agosto de 2022</p>
                     </div>
                 </div>
                 <div class="flex-item" id="item7">
                     <div>
-                        <br><br><br>
                         <h3>De Volta Para o Futuro</h3>
-                        <p>4 de agosto de 2022</p>
                     </div>
                 </div>
                 <div class="flex-item" id="item8">
                     <div>
-                        <br><br><br>
                         <h3>Matrix</h3>
-                        <p>4 de agosto de 2022</p>
                     </div>
                 </div>
                 <div class="flex-item" id="item9">
                     <div>
-                        <br><br>
                         <h3>Star Wars: Episódio III - A Vingança dos Sith</h3>
-                        <p>4 de agosto de 2022</p>
                     </div>
                 </div>
                 <div class="flex-item" id="item10">
                     <div>
-                        <br><br>
                         <h3>Star Wars: Episódio VI - O Retorno dos Jedi</h3>
-                        <p>4 de agosto de 2022</p>
                     </div>
                 </div>
+
             </div>
-            <h2>Comédia<button></button></h2>
+
+            <!-- -------------------- Comédia -------------------- -->
+
+            <h2>Comédia<button onclick="Esconder_Filmes(this)"></button></h2>
             <div class="flex-items">
+
                 <div class="flex-item" id="item11">
                     <div>
-                        <br><br><br>
                         <h3>Monty Phyton - A vida de Brian</h3>
-                        <p>4 de agosto de 2022</p>
                     </div>
                 </div>
                 <div class="flex-item" id="item12">
                     <div>
-                        <br><br><br>
                         <h3>Norbit - Uma Comédia de Peso</h3>
-                        <p>4 de agosto de 2022</p>
                     </div>
                 </div>
                 <div class="flex-item" id="item13">
                     <div>
-                        <br><br><br>
                         <h3>Todo Mundo em Pânico</h3>
-                        <p>4 de agosto de 2022</p>
                     </div>
                 </div>
                 <div class="flex-item" id="item14">
                     <div>
-                        <br><br><br>
                         <h3>Ele esta de volta</h3>
-                        <p>4 de agosto de 2022</p>
                     </div>
                 </div>
                 <div class="flex-item" id="item15">
                     <div>
-                        <br><br>
                         <h3>Free Guy - Assumindo o Controle</h3>
-                        <p>4 de agosto de 2022</p>
                     </div>
                 </div>
+
             </div>
-            <h2>Drama<button></button></h2>
+
+            <!-- -------------------- Drama -------------------- -->
+
+            <h2>Drama<button onclick="Esconder_Filmes(this)"></button></h2>
             <div class="flex-items">
+
                 <div class="flex-item" id="item16">
                     <div>
-                        <br><br><br>
                         <h3>Coringa</h3>
-                        <p>4 de agosto de 2022</p>
                     </div>
                 </div>
                 <div class="flex-item" id="item17">
                     <div>
-                        <br><br><br>
                         <h3>1917</h3>
-                        <p>4 de agosto de 2022</p>
                     </div>
                 </div>
                 <div class="flex-item" id="item18">
                     <div>
-                        <br><br>
                         <h3>O Lobo de Wall Street</h3>
-                        <p>4 de agosto de 2022</p>
                     </div>
                 </div>
                 <div class="flex-item" id="item19">
                     <div>
-                        <br><br><br>
                         <h3>Parasita</h3>
-                        <p>4 de agosto de 2022</p>
                     </div>
                 </div>
                 <div class="flex-item" id="item20">
                     <div>
-                        <br><br><br>
                         <h3>O Resgate do Soldado Ryan</h3>
-                        <p>4 de agosto de 2022</p>
                     </div>
                 </div>
+                
             </div>
         </div>
     </section>
