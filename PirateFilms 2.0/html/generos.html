@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/universal.css">
+    <link rel="stylesheet" href="../css/generos.css">
+    <script src="../javascript/universal.js"></script>
+    <link rel="icon" href="../images/Logo.png">
+    <title>Pirate Filmes</title>
+</head>
+<body>
+
+    <script>
+        function Esconder_Filmes(element) {
+            let seta = element.style;
+
+            let filmes = element.parentNode.nextElementSibling.style;
+            
+            if (filmes.display !== "none") {
+                filmes.display = "none";
+                seta.transform = "rotate(180deg)";
+            }
+            
+            else {
+                seta.transform = "rotate(0deg)";
+                filmes.display = "flex";
+            }
+        }
+    </script>
+
+    <!-- Anúncios -->
+    <div class="anuncio anuncio1" id="anuncioteste">
+        <button class="button-x" onclick="Fechar_Anuncio(this)"></button>
+    </div>
+    <div class="anuncio anuncio2">
+        <button class="button-x" onclick="Fechar_Anuncio(this)"></button>
+    </div>
+    <div class="anuncio anuncio3">
+        <button class="button-x" onclick="Fechar_Anuncio(this)"></button>
+    </div>
+
+    <!-- Banner -->
+
+    <header>
+        <img class="pirate-icon1" src="../images/pirate-icon.png" alt="pirate-icon">
+        <h1>Pirate Filmes</h1>
+        <img class="pirate-icon2" src="../images/pirate-icon.png" alt="pirate-icon2">
+    </header>
+
+    <!-- Navegação -->
+
+    <nav>
+        <a class="button" href="index.html">
+            Home
+            <div></div>
+        </a>
+        <a class="button" href="lancamentos.html">
+            Lançamentos
+            <div></div>
+        </a>
+        <a class="button" href="generos.html">
+            Gêneros
+            <div></div>
+        </a>
+    </nav>
+
+    <!-- Flex Layout -->
+
+    <section>
+        <div class="flex-container">
+
+            <!-- -------------------- Ação e Aventura -------------------- -->
+
+            <h2>Ação e Aventura<button class="botao-seta" onclick="Esconder_Filmes(this)"></button></h2>
+            <div class="flex-items">
+
+                <a href="#" onclick="Abrir_Anuncio()" class="flex-item" id="item1">
+                    <div>
+                        <h3>Harry Potter e a Câmara Secreta</h3>
+                        <video playsinline autoplay muted loop>
+                            <source src="../videos/harry-potter-2-trailer.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                </a>
+                <div class="flex-item" id="item2">
+                    <div>
+                        <h3>Uncharted: Fora do Mapa</h3>
+                    </div>
+                </div>
+                <div class="flex-item" id="item3">
+                    <div>
+                        <h3>Harry Potter e as Relíquias da Morte: Parte 2</h3>
+                    </div>
+                </div>
+                <div class="flex-item" id="item4">
+                    <div>
+                        <h3>Animais Fantásticos: Os Segredos de Dumbledore</h3>
+                    </div>
+                </div>
+                <div class="flex-item" id="item5">
+                    <div>
+                        <h3>9 - A Salvação</h3>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- -------------------- Ficção Científica -------------------- -->
+
+            <h2>Ficção Científica<button class="botao-seta" onclick="Esconder_Filmes(this)"></button></h2>
+            <div class="flex-items">
+
+                <div class="flex-item" id="item6">
+                    <div>
+                        <h3>Jurassic Park</h3>
+                    </div>
+                </div>
+                <div class="flex-item" id="item7">
+                    <div>
+                        <h3>De Volta Para o Futuro</h3>
+                    </div>
+                </div>
+                <div class="flex-item" id="item8">
+                    <div>
+                        <h3>Matrix</h3>
+                    </div>
+                </div>
+                <div class="flex-item" id="item9">
+                    <div>
+                        <h3>Star Wars: Episódio III - A Vingança dos Sith</h3>
+                    </div>
+                </div>
+                <div class="flex-item" id="item10">
+                    <div>
+                        <h3>Star Wars: Episódio VI - O Retorno dos Jedi</h3>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- -------------------- Comédia -------------------- -->
+
+            <h2>Comédia<button class="botao-seta" onclick="Esconder_Filmes(this)"></button></h2>
+            <div class="flex-items">
+
+                <div class="flex-item" id="item11">
+                    <div>
+                        <h3>Monty Phyton - A vida de Brian</h3>
+                    </div>
+                </div>
+                <div class="flex-item" id="item12">
+                    <div>
+                        <h3>Norbit - Uma Comédia de Peso</h3>
+                    </div>
+                </div>
+                <div class="flex-item" id="item13">
+                    <div>
+                        <h3>Todo Mundo em Pânico</h3>
+                    </div>
+                </div>
+                <div class="flex-item" id="item14">
+                    <div>
+                        <h3>Ele esta de volta</h3>
+                    </div>
+                </div>
+                <div class="flex-item" id="item15">
+                    <div>
+                        <h3>Free Guy - Assumindo o Controle</h3>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- -------------------- Drama -------------------- -->
+
+            <h2>Drama<button class="botao-seta" onclick="Esconder_Filmes(this)"></button></h2>
+            <div class="flex-items">
+
+                <div class="flex-item" id="item16">
+                    <div>
+                        <h3>Coringa</h3>
+                    </div>
+                </div>
+                <div class="flex-item" id="item17">
+                    <div>
+                        <h3>1917</h3>
+                    </div>
+                </div>
+                <div class="flex-item" id="item18">
+                    <div>
+                        <h3>O Lobo de Wall Street</h3>
+                    </div>
+                </div>
+                <div class="flex-item" id="item19">
+                    <div>
+                        <h3>Parasita</h3>
+                    </div>
+                </div>
+                <div class="flex-item" id="item20">
+                    <div>
+                        <h3>O Resgate do Soldado Ryan</h3>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+</body>

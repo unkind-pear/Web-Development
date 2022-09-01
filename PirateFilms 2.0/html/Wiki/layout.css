@@ -1,0 +1,17 @@
+#grid-container{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 800px;
+
+    margin-top: 10px;
+}
+
+#item1{
+    background-color: rgb(96, 99, 112);
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+#item2{
+    grid-column: 1/2;
+    grid-row: 1/2;
+}

@@ -1,0 +1,155 @@
+:root{
+    --background: rgb(73, 81, 111);
+}
+
+body{
+    margin: 0px;
+    background-color: var(--background);
+}
+
+header{
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 180px;
+
+    background-image: url("../images/banner.jpg");
+    background-position: center;
+    background-size: cover;
+
+    display: grid;
+}
+
+header h1{
+    font-family: Treasuremap;
+    font-size: 60px;
+    
+    margin: auto;
+}
+
+.pirate-icon1{
+    grid-column: 1/2;
+    padding: 15px;
+    margin: auto;
+}
+
+.pirate-icon2{
+    grid-column: 3/4;
+    padding: 15px;
+    margin: auto;
+}
+
+nav{
+    height: 80px;
+
+    text-align: center;
+
+    display: flex;
+
+    justify-content: center;
+
+    background-color: rgb(100, 114, 163);
+
+    box-shadow: 0 8px 8px -8px;
+}
+
+a{
+    text-decoration: none;
+    color: unset;
+}
+
+.button{
+    font-family: Poppins-Light;
+    color: white;
+    font-size: larger;
+
+    margin-left: 80px;
+    margin-top: auto;
+    margin-bottom: auto;
+
+    transition: color 0.5s ease-in-out;
+}
+.button:hover{
+    color: rgb(187, 187, 187);
+}
+
+.button div{
+    transition: width 0.5s ease-in-out;
+    height: 5px;
+    width: 0%;
+    margin: auto;
+
+    background-color: whitesmoke;
+}
+
+.button:hover div{
+    width: 100%;
+}
+
+@font-face {
+    font-family: Poppins-Light;
+    src: url("../fonts/Poppins/Poppins-Light.ttf");
+}
+
+@font-face {
+    font-family: Poppins-Bold;
+    src: url("../fonts/Poppins/Poppins-Bold.ttf");
+}
+
+@font-face {
+    font-family: Bebas;
+    src: url("../fonts/Bebas/Bebas-Regular.ttf");
+}
+
+@font-face {
+    font-family: Treasuremap;
+    src: url("../fonts/Pirate/Treasuremap.ttf");
+}
+
+/* Anúncios */
+
+.anuncio{
+    background-position: center;
+    background-size: cover;
+
+    border-radius: 8px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    display: none;
+
+    z-index: 2;
+}
+
+.anuncio1{
+    background-image: url("../images/Pop-Ups/papagaio-do-picpay.jpg");
+    width: 300px;
+    height: 300px;
+}
+
+.anuncio2{
+    background-image: url("../images/Pop-Ups/sorteio-pix.jpg");
+    width: 500px;
+    height: 300px;
+}
+
+.anuncio3{
+    background-image: url("../images/Pop-Ups/whatsapp-flamengo.jpg");
+    width: 300px;
+    height: 300px;
+}
+
+.button-x{
+    all: unset;
+
+    cursor: pointer;
+
+    float: right;
+
+    background-image: url("../images/Pop-Ups/botao-x.png");
+    background-size: contain;
+
+    width: 25px;
+    height: 25px;
+}
