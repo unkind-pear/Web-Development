@@ -1,6 +1,6 @@
 #grid-container{
     display: grid;
-    grid-template-columns: 1fr 400px;
+    grid-template-columns: 3fr 1fr;
     grid-template-rows: 720px;
 }
 
@@ -24,8 +24,8 @@
 .item1 p{
     font-family: Nunito-Variable;
     color: white;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 20%;
+    margin-right: 20%;
     font-size: larger;
     text-align: center;
 
@@ -39,7 +39,7 @@
     background-size: contain;
     background-position: center;
 
-    width: 80%;
+    width: 60%;
     height: 5px;
 
     border-radius: 5px;
@@ -54,6 +54,9 @@
 iframe{
     border: 5px solid var(--metadatabor);
     border-radius: 8px;
+
+    width: calc(560px + 10vh);
+    height: calc(315px + 10vh);
 }
 
 @keyframes aparecer{
@@ -64,7 +67,7 @@ iframe{
 @keyframes expandir{
     0% {width: 0px; opacity: 0;}
     50% {opacity: 1;}
-    100% {width: 80%;}
+    100% {width: 60%;}
 }
 
 /* Item 2 */
@@ -105,22 +108,4 @@ table{
 .par{
     background-color: lightgray;
     color: black;
-}
-
-/* Items */
-
-#fundo1 {
-    background-image: url("../../images/Wiki/fundo-harry-potter-2.jpg");
-}
-#fundo2 {
-    background-image: url("../../images/Wiki/fundo-uncharted.jpg");
-}
-#fundo3 {
-    background-image: url("../../images/Wiki/fundo-hp7-p2.jpg");
-}
-#fundo4 {
-    background-image: url("../../images/Wiki/fundo-af-3.jpeg");
-}
-#fundo5 {
-    background-image: url("../../images/Wiki/fundo-9.jpg");
 }

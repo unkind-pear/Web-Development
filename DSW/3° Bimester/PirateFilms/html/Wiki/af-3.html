@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../css/universal.css">
+    <link rel="stylesheet" href="../Wiki/layout.css">
+    <script src="../../javascript/universal.js"></script>
+    <link rel="icon" href="../../images/Logo.png">
+    <title>Pirate Filmes</title>
+</head>
+<body>
+    <!-- Anúncios -->
+    <div class="anuncio anuncio1" id="anuncioteste">
+        <button class="button-x" onclick="Fechar_Janela(this)"></button>
+        <button class="button-stop-ads" onclick="Abrir_Pagamento()">Desativar Anúncios<img src="../images/Pop-Ups/cancel.png" alt="icone-cancel"></button>
+    </div>
+    <div class="anuncio anuncio2">
+        <button class="button-x" onclick="Fechar_Janela(this)"></button>
+        <button class="button-stop-ads" onclick="Abrir_Pagamento()">Desativar Anúncios<img src="../images/Pop-Ups/cancel.png" alt="icone-cancel"></button>
+    </div>
+    <div class="anuncio anuncio3">
+        <button class="button-x" onclick="Fechar_Janela(this)"></button>
+        <button class="button-stop-ads" onclick="Abrir_Pagamento()">Desativar Anúncios<img src="../images/Pop-Ups/cancel.png" alt="icone-cancel"></button>
+    </div>
+    <div class="anuncio anuncio4">
+        <button class="button-x" onclick="Fechar_Janela(this)"></button>
+        <button class="button-stop-ads" onclick="Abrir_Pagamento()">Desativar Anúncios<img src="../images/Pop-Ups/cancel.png" alt="icone-cancel"></button>
+    </div>
+    <div class="anuncio anuncio5">
+        <button class="button-x" onclick="Fechar_Janela(this)"></button>
+        <button class="button-stop-ads" onclick="Abrir_Pagamento()">Desativar Anúncios<img src="../images/Pop-Ups/cancel.png" alt="icone-cancel"></button>
+    </div>
+
+    <div class="paywall">
+        <p>R$ 200<img src="../images/Pop-Ups/pix.png" alt="icone-pix"></p>
+        <button class="button-pay" onclick="Pagar(this)">Pagar</button>
+    </div>
+
+    <!-- Banner -->
+
+    <header>
+        <img class="pirate-icon1" src="../../images/pirate-icon.png" alt="pirate-icon">
+        <h1>Pirate Filmes</h1>
+        <img class="pirate-icon2" src="../../images/pirate-icon.png" alt="pirate-icon2">
+    </header>
+
+    <!-- Navegação -->
+
+    <nav>
+        <a class="button" href="../index.html">
+            Home
+            <div></div>
+        </a>
+        <a class="button" href="../lancamentos.html">
+            Lançamentos
+            <div></div>
+        </a>
+        <a class="button" href="../generos.html">
+            Gêneros
+            <div></div>
+        </a>
+
+        <!-- DARK SIDE -->
+        <button class="button-dark-side" onclick="THE_DARK_SIDE(this)">Enter the Dark Side<img src="../../images/dark-side.png" alt="vader-icon"></button>
+    </nav>
+
+    <section>
+
+        <!-- Grid Container -->
+
+        <div id="grid-container">
+
+            <!-- Sinopse e Trailer -->
+
+            <div class="item1" id="fundo4">
+                <iframe src="https://www.youtube.com/embed/LcCrLZceCmg?autoplay=1&mute=1&loop=1&controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                <div class="barra"></div>
+
+                <p>O professor Alvo Dumbledore (Jude Law) sabe que o poderoso mago das trevas Gellert Grindelwald (Mads Mikkelsen) está se movimentando para assumir o controle do mundo mágico. Incapaz de detê-lo sozinho, ele pede ao magizoologista Newt Scamander (Eddie Redmayne) para liderar uma intrépida equipe de bruxos, bruxas e um corajoso padeiro trouxa em uma missão perigosa, em que eles encontram velhos e novos animais fantásticos e entram em conflito com a crescente legião de seguidores de Grindelwald. Mas com tantas ameaças, quanto tempo poderá Dumbledore permanecer à margem do embate?</p>
+            </div>
+
+            <!-- Metadata e Cover -->
+
+            <div class="item2">
+                <img src="../../images/Gêneros/animais-fantasticos-3.jpg" alt="af-3-cover">
+                <table>
+                    <tr><th>Nome</th><td>Animais Fantásticos: Os Segredos de Dumbledore</td></tr>
+                    <tr class="par"><th>Ano</th><td>2022</td></tr>
+                    <tr><th>Duração</th><td>142 minutos</td></tr>
+                    <tr class="par"><th>Direção</th><td>David Yates</td></tr>
+                    <tr><th>Roteiro</th><td>J. K. Rowling, Steve Kloves</td></tr>
+                    <tr class="par"><th>Gênero</th><td>Aventura</td></tr>
+                </table>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
