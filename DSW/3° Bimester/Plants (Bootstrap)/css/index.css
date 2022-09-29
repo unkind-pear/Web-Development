@@ -1,0 +1,71 @@
+:root {
+    --india-green: #298911ff;
+    --yellow-green-crayola: #D5DC90ff;
+    --laurel-green: #A2B99Cff;
+    --sheen-green: #7ECE15ff;
+    --xanadu: #6A8776ff;
+    --background: #A2B99Cff;
+}
+
+body {
+    background-color: var(--background) !important;
+}
+
+@font-face {
+    font-family: Nunito;
+    src: url("../fonts/Nunito/Nunito-VariableFont_wght.ttf");
+}
+
+nav {
+    font-family: Nunito;
+    font-size: 20px;
+}
+
+.pvz_selec {
+    background-position: center;
+    background-size: cover;
+    height: 85vh;
+
+    display: flex;
+    align-items: center;
+
+    border: 8px solid var(--background);
+
+    transition: border 1s, transform 1s;
+
+    z-index: 1;
+}
+.pvz_selec:hover {
+    border: 8px solid white;
+    animation: brilho 1s 1;
+
+    transform: scale(1.05);
+
+    z-index: 2;
+}
+
+@keyframes brilho {
+    50% {filter: brightness(120%);}
+    100% {filter: brightness(100%);}
+}
+
+#pvz1_selec {
+    background-image: url("../images/pvz1-background.jpg");
+}
+
+#pvz2_selec {
+    background-image: url("../images/pvz2-background.jpg");
+}
+
+#pvz3_selec {
+    background-image: url("../images/pvz3-background-2.jpg");
+}
+
+.logo{
+    width: 100%;
+    margin: auto;
+}
+
+#pvz1_selec .logo {
+    padding: 10%;
+}

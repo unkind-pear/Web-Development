@@ -60,9 +60,9 @@ if (localStorage.getItem("dark-side") === "true") {
     document.querySelector(":root").style.setProperty("--metadatac", "rgb(112, 112, 112)");
     document.querySelector(":root").style.setProperty("--metadatabor", "rgb(189, 186, 186)");
 
-    document.getElementsByClassName("button-dark-side")[0].style.color("white");
-    document.getElementsByClassName("button-dark-side")[0].style.backgroundColor("black");
-    document.getElementsByClassName("button-dark-side")[0].style.borderColor = "white"
+    document.getElementsByClassName("button-dark-side")[0].style.color = "white";
+    document.getElementsByClassName("button-dark-side")[0].style.backgroundColor = "black";
+    document.getElementsByClassName("button-dark-side")[0].style.borderColor = "white";
 }
 
 function THE_DARK_SIDE(element) {
@@ -76,7 +76,7 @@ function THE_DARK_SIDE(element) {
 
         element.style.color = "black";
         element.style.backgroundColor = "white";
-        element.style.borderColor = "black"
+        element.style.borderColor = "black";
     }
 
     else {
@@ -89,6 +89,6 @@ function THE_DARK_SIDE(element) {
 
         element.style.color = "white";
         element.style.backgroundColor = "black";
-        element.style.borderColor = "white"
+        element.style.borderColor = "white";
     }
 }
