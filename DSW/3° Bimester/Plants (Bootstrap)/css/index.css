@@ -1,3 +1,5 @@
+/* Variables */
+
 :root {
     --india-green: #298911ff;
     --yellow-green-crayola: #D5DC90ff;
@@ -7,65 +9,180 @@
     --background: #A2B99Cff;
 }
 
+/* Main Structure */
+
 body {
-    background-color: var(--background) !important;
+    background-image: linear-gradient(135deg, var(--yellow-green-crayola), var(--india-green));
+    background-attachment: fixed;
+    height: 100vh;
 }
 
-@font-face {
-    font-family: Nunito;
-    src: url("../fonts/Nunito/Nunito-VariableFont_wght.ttf");
-}
 
 nav {
     font-family: Nunito;
     font-size: 20px;
 }
 
+/* Fonts */
+
+@font-face {
+    font-family: Nunito;
+    src: url("../fonts/Nunito/Nunito-VariableFont_wght.ttf");
+}
+
+/* Plants VS Zombies Selection Screen */
+
 .pvz_selec {
     background-position: center;
     background-size: cover;
-    height: 85vh;
 
     display: flex;
     align-items: center;
 
-    border: 8px solid var(--background);
+    border: 8px solid rgba(255, 255, 255, 0);
 
     transition: border 1s, transform 1s;
 
     z-index: 1;
+
+    overflow: hidden;
+    position: relative;
 }
 .pvz_selec:hover {
     border: 8px solid white;
-    animation: brilho 1s 1;
-
-    transform: scale(1.05);
-
     z-index: 2;
 }
+.pvz_selec:hover .background {
+    transform: translateX(100%);
+}
+.pvz_selec:hover .logo {
+    animation: brilho 1s 1;
+}
+.pvz_selec video {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+
+    object-fit: cover;
+
+    right: 0;
+}
+
+/* Selection Items */
+
+.background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+
+    object-fit: cover;
+
+    right: 0;
+
+    transition: transform 1s;
+}
+.pvz_selec1 .logo {
+    width: 100%;
+}
+#pvz1_selec .logo {
+    padding: 10%;
+}
+
+.pvz_selec2 .logo {
+    width: 50%;
+    margin: auto;
+}
+
+/* Individual Selections */
+
+.pvz_selec1 {
+    height: 85vh;
+    width: 100%;
+}
+
+.pvz_selec2 {
+    height: 300px;
+    width: 100%;
+}
+
+/* Button */
+
+#seta {
+    all: unset;
+    cursor: pointer;
+
+    width: 50px;
+    height: 50px;
+
+    margin-left: 50%;
+    margin-right: 50%;
+}
+#seta img {
+    width: inherit;
+    height: inherit;
+
+    animation: pulando 1s infinite;
+
+    filter: invert();
+}
+
+/* Animations */
 
 @keyframes brilho {
     50% {filter: brightness(120%);}
     100% {filter: brightness(100%);}
 }
 
-#pvz1_selec {
-    background-image: url("../images/pvz1-background.jpg");
+@keyframes pulando {
+    70% {transform: translateY(-12px);}
+    100% {transform: translateY(0px);}
 }
 
-#pvz2_selec {
-    background-image: url("../images/pvz2-background.jpg");
+/* Carousel */
+
+.carousel-item {
+    height: 300px;
+    overflow: hidden;
+    width: 600px;
 }
 
-#pvz3_selec {
-    background-image: url("../images/pvz3-background-2.jpg");
+.carousel-item img {
+    height: 100% !important;
+    width: 600px !important;
+    object-fit: cover;
 }
 
-.logo{
-    width: 100%;
-    margin: auto;
+.pvzpage {
+    height: 100px;
+    transform: scale(1.5);
+}
+.pvzpage:hover {
+    animation: brilho 1s 1;
 }
 
-#pvz1_selec .logo {
-    padding: 10%;
+.c {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: var(--india-green);
+}
+
+.as {
+    text-decoration: none;
+}
+.as:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.offsdf {
+    position: fixed;
+    top: 90%;
+    left: 15px;
+}
+.offsdf img {
+    pointer-events: none;
+    cursor: default;
 }
