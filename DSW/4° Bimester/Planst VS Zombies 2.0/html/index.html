@@ -4,7 +4,7 @@
     <title>Plants VS Zombies</title>
 
     <link rel="icon" href="../images/icon.png">
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="style.css">
 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -33,31 +33,20 @@
     <!-- Navegation Bar -->
     <nav class="nav nav-pills d-flex justify-content-center">
         <ul class="d-flex justify-content-center mt-3">
-            <li class="nav-item nav-link text-white"><a href="#">Home</a></li>
-            <li class="nav-item nav-link active text-white"><a href="#">Jogos</a></li>
-            <li class="nav-item nav-link text-white"><a href="#">Sobre</a></li>
+            <li><a class="nav-item nav-link text-white mx-1" onmouseover="this.classList.add('active')" onmouseout="this.classList.remove('active')" href="#">Home</a></li>
+            <li class="nav-item dropdown mx-1">
+                <a class="nav-link dropdown-toggle text-white" data-bs-toggle="dropdown" href="#">Jogos</a>
+    
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item text-dark" href="pvz1.html">PvZ 1</a></li>
+                    <li><a class="dropdown-item text-dark" href="pvz2.html">PvZ 2</a></li>
+                    <li><a class="dropdown-item text-dark" href="pvz3.html">PvZ 3</a></li>
+                    <li><a class="dropdown-item text-dark" href="pvzh.html">PvZ Heroes</a></li>
+                </ul>
+            </li>
+            <li><a class="nav-item nav-link text-white mx-1" onmouseover="this.classList.add('active')" onmouseout="this.classList.remove('active')" href="#">Sobre</a></li>
         </ul>
     </nav>
-    
-    <!-- OLD Nav Bar -->
-
-    <!-- <nav class="nav nav-pills justify-content-center mt-4 bg-green">
-        <a class="nav-item nav-link text-white" href="#">Home</a>
-
-        <div class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle text-white" data-bs-toggle="dropdown" href="#">Jogos</a>
-
-            <div class="dropdown-menu">
-                <a class="dropdown-item text-dark" href="pvz1.html">PvZ 1</a>
-                <a class="dropdown-item text-dark" href="pvz2.html">PvZ 2</a>
-                <a class="dropdown-item text-dark" href="pvz3.html">PvZ 3</a>
-                <a class="dropdown-item text-dark" href="pvzh.html">PvZ Heores</a>
-                <a class="dropdown-item text-dark" href="pvzad.html">PvZ Adventures</a>
-            </div>
-        </div>
-
-        <a class="nav-item nav-link text-white" href="#">Sobre</a>
-    </nav> -->
 
     <!-- Selection -->
     <div class="selection-container">

@@ -17,6 +17,10 @@ body {
     height: 100vh;
 }
 
+.body2 {
+    background-image: linear-gradient(135deg, #a86cf0, #7a0bf7);
+}
+
 
 nav {
     font-family: Nunito;
@@ -181,6 +185,8 @@ nav {
     position: fixed;
     top: 90%;
     left: 15px;
+
+    z-index: +3;
 }
 .offsdf img {
     pointer-events: none;

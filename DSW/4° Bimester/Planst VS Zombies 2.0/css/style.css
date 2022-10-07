@@ -15,9 +15,29 @@ nav {
     background-image: linear-gradient(135deg, var(--yellow-green-crayola), var(--india-green));
 }
 
-li a {
+a {
     text-decoration: none;
     color: unset;
+}
+.active {
+    background-color: rgb(92, 224, 125) !important;
+
+    transition: background-color 0.5s ease-in-out;
+}
+
+li {
+    all: unset;
+}
+
+li .dropdown {
+    border-radius: 4px;
+    background-color: rgb(92, 224, 125);
+
+    transition: background-color 0.5s ease-in-out;
+}
+
+.dropdown:hover {
+    background-color: rgba(92, 224, 125, 1);
 }
 
 .selection-container {
@@ -53,7 +73,7 @@ li a {
 
     object-fit: cover;
 
-    transform: skewX(10deg) scale(1.7);/* Unskew (desvirar) */
+    transform: skewX(10deg) scale(2.1);/* Unskew (desvirar) */
 
     z-index: -1; /* Coloca atrás do logo */
 
