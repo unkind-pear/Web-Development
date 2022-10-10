@@ -5,6 +5,8 @@
     --sheen-green: #7ECE15ff;
     --xanadu: #6A8776ff;
     --background: #A2B99Cff;
+
+    --bt: rgb(92, 224, 125);
 }
 
 body {
@@ -20,7 +22,7 @@ a {
     color: unset;
 }
 .active {
-    background-color: rgb(92, 224, 125) !important;
+    background-color: var(--bt) !important;
 
     transition: background-color 0.5s ease-in-out;
 }
@@ -29,15 +31,11 @@ li {
     all: unset;
 }
 
-li .dropdown {
+ul .dropdown {
     border-radius: 4px;
-    background-color: rgb(92, 224, 125);
+    background-color: var(--bt);
 
     transition: background-color 0.5s ease-in-out;
-}
-
-.dropdown:hover {
-    background-color: rgba(92, 224, 125, 1);
 }
 
 .selection-container {
@@ -58,12 +56,15 @@ li .dropdown {
 
     overflow: hidden;
 
-    transition: width 0.7s ease-in-out, border 0.2s ease-in-out;
+    border: 0 solid #242424;
+
+    transition: width 0.7s ease-in-out, border 0.7s ease-in-out;
 }
 .pvz-selection:hover {
     width: 200%;
-    border-left: 15px solid white;
-    border-right: 15px solid white;
+    border: 15px solid white;
+    border-top: 0;
+    border-bottom: 0;
 }
 
 .pvz-selection .background {
@@ -76,16 +77,19 @@ li .dropdown {
     transform: skewX(10deg) scale(2.1);/* Unskew (desvirar) */
 
     z-index: -1; /* Coloca atrás do logo */
-
-    /* clip-path: polygon(0 10%, 100% 10%, 100% 90%, 0 90%); */
 }
 .pvz-selection:hover .background {
-    animation: fade 0.7s ;
     opacity: 0;
 }
-@keyframes fade {
+@keyframes fade-out {
     0% {opacity: 1;}
+    10% {filter: blur(5px);}
     100% {opacity: 0;}
+}
+@keyframes fade-in {
+    0% {opacity: 0;}
+    10% {filter: blur(5px);}
+    100% {opacity: 1;}
 }
 
 .pvz-selection video {
