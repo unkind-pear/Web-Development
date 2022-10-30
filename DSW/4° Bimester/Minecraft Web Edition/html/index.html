@@ -3,33 +3,39 @@
 <head>
     <title>Minecraft</title>
 
-    <link rel="icon" href="#">
+    <link rel="icon" href="../images/Logo.webp">
     <link rel="stylesheet" href="../css/style.css">
+    <script defer src="../js/script.js"></script>
 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
+    <!-- StartUp -->
+    <video class="fill" style="z-index: 9999;" onended="start_menu(this)" src="../videos/Mojang Studios Startup.mp4" autoplay muted></video>
+
     <!-- Fundo do Menu -->
-    <video class="fundo" src="../videos/Minecraft Title Screen background.mp4" autoplay muted loop></video>
-    
+    <video class="fill" style="z-index: -1;" src="../videos/Minecraft Title Screen background.mp4" loop muted></video>
+    <video class="fill" style="z-index: -2;" src="../videos/Minecraft Dungeons background.mp4" loop muted></video>
 
     <section>
-
         <!-- Menu -->
-        <div class="grid-container">
+        <div id="flex-menu">
             <!-- Title -->
-            <img class="title" src="../images/minecraft.png">
+            <div id="title-container">
+                <img id="title" src="../images/title-vanilla.png">
+            </div>
     
             <!-- Botões -->
-            <div class="botoes-grid">
-                <button class="b b1"><img src="../images/menur.png"><p>Minecraft</p></button>
-                <button class="b b2"><img src="../images/menur.png"><p>Minecraft Dungeons</p></button>
-                <button class="b b3"><img src="../images/menur.png"><p>Other</p></button>
+            <div id="botoes-grid">
+                <button class="b" id="b1" onclick="window.location.href = 'options.html'" onmouseover="b_hover(this)" onmouseout="b_hover(this)"><img src="">Minecraft</button>
+                <button class="b" id="b2" onclick="" onmouseover="b_hover(this)" onmouseout="b_hover(this)"><img src="">Minecraft Dungeons</button>
+                <button class="b" id="b3" onclick="" onmouseover="b_hover(this)" onmouseout="b_hover(this)"><img src="">Other</button>
                 <div class="bp">
-                    <button id="bp1"><img src="../images/botao-mini.png"><p>Créditos</p></button>
-                    <button id="bp2"><img src="../images/botao-mini.png"><p>Demo</p></button>
+                    <button id="bm" onclick="enable_disable_darkmode()" onmouseover="bm_hover(this)" onmouseout="bm_hover(this)"><img src=""></button>
+                    <button onclick="window.location.href = 'creditos.html'" onmouseover="bp_hover(this)" onmouseout="bp_hover(this)"><img src=""><p>Creditos</p></button>
+                    <button onclick="" onmouseover="bp_hover(this)" onmouseout="bp_hover(this)"><img src=""><p>Demo</p></button>
                 </div>
             </div>
         </div>

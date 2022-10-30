@@ -1,0 +1,99 @@
+/* base */
+body{
+    margin: 0;
+    font-family: Mine;
+    font-size: 20px;
+}
+
+.fundor{
+    position: fixed;
+    z-index: -1;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../images/option-background.png");
+    background-size: 100px;
+    filter:brightness(0.18);
+}
+
+@font-face {
+    font-family: Mine;
+    src: url("../fonts/Minecraft.ttf");
+}
+
+/* nav de cima e baixo */
+
+.barra{
+    z-index: 99;
+    background-image: url("../images/option-background.png");
+    background-size: 100px;
+    filter:brightness(0.28);
+    display: flex;
+    position: fixed;
+    width: 100vw;
+}
+
+.barraup{
+    height: 15vh;
+    top: 0;
+    border-bottom: 0.25vw solid black;
+}
+
+.barradown{
+    height: 20vh;
+    bottom: 0;
+    border-top: 0.25vw solid black;
+}
+
+/* seleção de mundos */
+
+.mundos{
+    padding-top: 16vh;
+    padding-bottom: 19vh;
+
+    position: relative;
+    display: grid;
+    height: 100vh;
+}
+
+/* mundos */
+
+.baseSelector{
+
+    display: flex;
+
+    width: 40vw;
+    height: 12vh;
+    margin: auto;
+
+    color: whitesmoke;
+    font-size: 20px;
+}
+
+.baseBlock{
+    height: 64px;
+    width: 64px;
+    background-size: cover;
+}
+
+/* posições imagens */
+
+.bd{
+    background-image: url('../images/option-icon-placeholder.png');
+}
+
+/* Titulo/Descrição */
+
+.ordem{
+    margin: 10px;
+    margin-top: 4px;
+    display: flex;
+    flex-direction: column;
+}
+
+.title{
+    color: white;
+}
+
+.desc{
+    color: grey;
+}
