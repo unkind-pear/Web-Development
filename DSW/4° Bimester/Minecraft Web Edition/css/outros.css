@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    background-image: url("../images/Creditos/creditos-background.png");
+}
+
+@font-face {
+    font-family: Poligon;
+    src: url("../fonts/Meta/Poligon\ Extra\ Bold.otf");
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+
+    z-index: 2;
+}
+
+.texto-inicial {
+    font-family: Poligon;
+    font-size: 100px;
+    background-image: url("../images/Outros/fundo-texto.jpg");
+    background-size: contain;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.selection-container {
+    display: flex;
+
+    width: 100%;
+    overflow: hidden;
+}
+
+.pvz-selection {
+    width: 100%;
+    height: 100vh;
+    transform: skewX(-10deg);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    overflow: hidden;
+
+    border: 0 solid #242424;
+
+    transition: width 0.7s ease-in-out, border 0.7s ease-in-out;
+}
+.pvz-selection:hover {
+    width: 200%;
+    border: 15px solid white;
+    border-top: 0;
+    border-bottom: 0;
+}
+
+.pvz-selection .background {
+    position: absolute;
+    width: calc(100vh - 50%);
+    height: 100%;
+
+    object-fit: cover;
+
+    transform: skewX(10deg) scale(2.1);/* Unskew (desvirar) */
+
+    z-index: -1; /* Coloca atrás do logo */
+}
+.pvz-selection:hover .background {
+    opacity: 0;
+}
+@keyframes fade-out {
+    0% {opacity: 1;}
+    10% {filter: blur(5px);}
+    100% {opacity: 0;}
+}
+@keyframes fade-in {
+    0% {opacity: 0;}
+    10% {filter: blur(5px);}
+    100% {opacity: 1;}
+}
+
+.pvz-selection video {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -2; /* Coloca atrás do background */
+
+    transform: skewX(10deg);
+
+    object-fit: cover;
+}
+
+.pvz-selection .logo {
+    width: 80%;
+
+    transform: skewX(10deg);
+}
+
+#start-selection {
+    margin-left: -100px; 
+    padding-right: 100px;
+}
+#start-selection .logo {
+    margin-left: 180px;
+    width: 65%;
+}
+
+#end-selection {
+    margin-right: -100px;
+    padding-left: 100px;
+}
+#end-selection .logo {
+    margin-right: 180px;
+}

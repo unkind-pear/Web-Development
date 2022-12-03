@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <title>Minecraft</title>
+
+    <link rel="icon" href="../images/Logo.webp">
+    <link rel="stylesheet" href="../css/outros.css">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <header>
+        <div class="texto-inicial">
+            Outros Jogos da franquia Minecraft™
+        </div>
+    </header>
+
+    <!-- Script -->
+    <script>
+        function Selection_Hover(t) {
+            t.lastElementChild.play()
+            t.children[1].style.animation = "fade-out 0.7s"
+        }
+
+        function Selection_Out(t) {
+            t.lastElementChild.pause()
+            t.children[1].style.animation = "fade-in 0.7s"
+        }
+    </script>
+
+    <!-- Selection -->
+    <div class="selection-container">
+        <div class="pvz-selection" id="start-selection" onmouseover="Selection_Hover(this)" onmouseout="Selection_Out(this)">
+            <img class="logo" src="../images/Outros/minecraft-education-logo.png">
+            <img class="background" src="../images/Outros/minecraft-education-background.jpg">
+            <video src="../videos/pvz1-gameplay.mp4" loop muted></video>
+        </div>
+        <div class="pvz-selection" onmouseover="Selection_Hover(this)" onmouseout="Selection_Out(this)">
+            <img class="logo" src="../images/Outros/minecraft-earth-logo.png">
+            <img class="background" src="../images/Outros/minecraft-earth-background.jpg">
+            <video src="../videos/pvz2-gameplay.mp4" loop muted></video>
+        </div>
+        <div class="pvz-selection" id="end-selection" onmouseover="Selection_Hover(this)" onmouseout="Selection_Out(this)">
+            <img class="logo" src="../images/Outros/minecraft-legends-logo.png">
+            <img class="background" src="../images/Outros/minecraft-legends-background.jpg">
+            <video src="../videos/pvzh-gameplay.mp4" loop muted></video>
+        </div>
+    </div>
+</body>
+</html>
