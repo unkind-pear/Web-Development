@@ -122,6 +122,64 @@ a{
     margin-left: 10px;
 }
 
+@media only screen and (max-width: 1560px) {
+    .button-dark-side {
+        width: 40px;
+        left: calc(100% - 7vh);
+    }
+
+    .button-dark-side img{
+        margin-left: 0px;
+    }
+
+    .button-dark-side span{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    header{
+        background-image: url("../images/banner.jpg");
+        background-position: center;
+        background-size: cover;
+
+        height: 55px;
+        width: 100%;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    header h1{
+        font-size: 30px;
+    }
+    
+    .pirate-icon1{
+        display: none;
+    }
+    
+    .pirate-icon2{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .button {
+        font-size: 15px;
+        margin: auto 10px auto;
+    }
+    .button-dark-side{
+        color: black;
+
+        background-color: white;
+        width: 35px;
+        height: 35px;
+
+        border-radius: 100%;
+    }
+}
+
 /* Fonts */
 
 @font-face {
